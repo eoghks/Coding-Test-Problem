@@ -1,0 +1,12 @@
+1. Two Sum : 서로 다른 index의 요소 끼리 더해서 target이 되는 2개의 인덱스를 구하는 문제 (처음 발견시 리턴)
+13. RomantoloInteger : 임의의 로마숫자 정수로 치환하는 문제 
+20. Valid Parentheses : 괄호가 제대로 닫혔는지 구별하는 문제 ->stack을 이용한 문제 <자료구조>
+21. Merge Two Sorted Lists : 오름차순으로 정렬된 2개의 linked list를 하나의 정렬된 linked list로 만드는 문제 ->linked list 관련 문제 <자료구조>
+53. Maximum Subarray : subarry의 sum이 가장 큰 값을 찾는 문제 
+88. Merge Sorted Array : 2개의 오름차순으로 정렬된 리스트를 첫번째 list에 합쳐서 정렬하는 문제 -> Merge sort 관련문제 <알고리즘>
+141. Linked List Cycle : linked lsit가 cycle이 있는지 확인하는 문제 -> linked lsit 관련 <자료구죠>
+155. Min Stack : stack의 init, push, pop, top, getMin을 만드는 문제 -> stack 문제<자료구조>
+160. Intersection of Two Linked Lists : linked listd의 교집합을 찾는 문제 있으면 교집합의 주소를 없으면 None 반환 -> linked list 문제 <자료구조>
+169. Majority Element : list의 원소중 list의 길이의 절반보다 긴 수를 가진 원소를 반환하는 문제 -> set을 이용하여 풀이 <set과 list는 유사한 함수를 사용한다.>
+172. Factorial Trailing Zeroes : n!의 tail의 0의 수를 구하는 문제 -> 5*2=10이다 따라서 n!를 소인수 분해햇을때 5의 수를 구하면 0의 수를 알 수 있다.
+189. Rotate Array : Array를 주어진 k 만큼 회전시키는 문제 -> list의 얕은 복사/ 깉은 복사가 키포인트  
