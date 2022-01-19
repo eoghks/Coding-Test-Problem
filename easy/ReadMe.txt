@@ -10,4 +10,5 @@
 169. Majority Element : list의 원소중 list의 길이의 절반보다 긴 수를 가진 원소를 반환하는 문제 -> set을 이용하여 풀이 <set과 list는 유사한 함수를 사용한다.>
 172. Factorial Trailing Zeroes : n!의 tail의 0의 수를 구하는 문제 -> 5*2=10이다 따라서 n!를 소인수 분해햇을때 5의 수를 구하면 0의 수를 알 수 있다.
 189. Rotate Array : Array를 주어진 k 만큼 회전시키는 문제 -> list의 얕은 복사/ 깉은 복사가 키포인트  
+198. House Robber : 연속된 집을 털경우 경보가 발생 / 주어진 배열에서 최대로 털수 있는 금액을 구하는 문제 -> dynamic program <알고리즘> <*>
 202. Happy Number : 각 자리의 수를 제곱하여 더하여 수를 생성(반복) + 이수가 1이면 true 만약 loop에 빠지면 false를 반환하는 문제
