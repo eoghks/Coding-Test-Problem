@@ -12,3 +12,4 @@
 189. Rotate Array : Array를 주어진 k 만큼 회전시키는 문제 -> list의 얕은 복사/ 깉은 복사가 키포인트  
 198. House Robber : 연속된 집을 털경우 경보가 발생 / 주어진 배열에서 최대로 털수 있는 금액을 구하는 문제 -> dynamic program <알고리즘> <*>
 202. Happy Number : 각 자리의 수를 제곱하여 더하여 수를 생성(반복) + 이수가 1이면 true 만약 loop에 빠지면 false를 반환하는 문제
+204. Count Primes : n보다 작은 primes의 수를 세는 문제 -> 알고리즘, 자료구조 문제는 아니지만 time complexity를 고민해야하는 문제 
