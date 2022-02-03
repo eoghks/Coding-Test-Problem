@@ -13,3 +13,5 @@
 198. House Robber : 연속된 집을 털경우 경보가 발생 / 주어진 배열에서 최대로 털수 있는 금액을 구하는 문제 -> dynamic program <알고리즘> <*>
 202. Happy Number : 각 자리의 수를 제곱하여 더하여 수를 생성(반복) + 이수가 1이면 true 만약 loop에 빠지면 false를 반환하는 문제
 204. Count Primes : n보다 작은 primes의 수를 세는 문제 -> 알고리즘, 자료구조 문제는 아니지만 time complexity를 고민해야하는 문제 
+205. Isomorphic Strings : 2개의 string이 존재할때 2개의 string의 구조가 동일한가를 판단하는 문제 (s1의 알파벳은 s2의 알파벳중 하나로 mapping<동일 알파벳이 다른 알파벳으로 mapping불가>)
+226. Invert Binary Tree : Binary Tree의 왼쪽 오른쪽 자식들을 바꾸는 문제 -> Binary Tree <자료구조>
