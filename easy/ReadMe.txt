@@ -15,3 +15,5 @@
 204. Count Primes : n보다 작은 primes의 수를 세는 문제 -> 알고리즘, 자료구조 문제는 아니지만 time complexity를 고민해야하는 문제 
 205. Isomorphic Strings : 2개의 string이 존재할때 2개의 string의 구조가 동일한가를 판단하는 문제 (s1의 알파벳은 s2의 알파벳중 하나로 mapping<동일 알파벳이 다른 알파벳으로 mapping불가>)
 226. Invert Binary Tree : Binary Tree의 왼쪽 오른쪽 자식들을 바꾸는 문제 -> Binary Tree <자료구조>
+242. Valid Anagram : 두 string을 구성하는 알파벳이 동일한지 파악하는 알고리즘 ->string관련 문제
+371. Sum of Two Integers : 두수를 더하는데 +,-기호를 안쓰고 더하기
