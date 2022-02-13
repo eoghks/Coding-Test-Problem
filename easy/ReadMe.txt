@@ -17,3 +17,5 @@
 226. Invert Binary Tree : Binary Tree의 왼쪽 오른쪽 자식들을 바꾸는 문제 -> Binary Tree <자료구조>
 242. Valid Anagram : 두 string을 구성하는 알파벳이 동일한지 파악하는 알고리즘 ->string관련 문제
 371. Sum of Two Integers : 두수를 더하는데 +,-기호를 안쓰고 더하기
+448. Find All Numbers Disappeared in an Array : array속에 없는 숫자를 찾는 문제 -> set이용시 편하다
+557. Reverse Words in a String III : 주어진 문자열를 단어별로 reverse한 문자열을 생성하는 문제 -> slice, reversed함수
