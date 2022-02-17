@@ -19,3 +19,5 @@
 371. Sum of Two Integers : 두수를 더하는데 +,-기호를 안쓰고 더하기
 448. Find All Numbers Disappeared in an Array : array속에 없는 숫자를 찾는 문제 -> set이용시 편하다
 557. Reverse Words in a String III : 주어진 문자열를 단어별로 reverse한 문자열을 생성하는 문제 -> slice, reversed함수
+572. Subtree of Another Tree : 
+605. Can Place Flowers : 주어진 배열에서 1은 연속적으로 존재하지 못할때 1을 넣을수 있는 최대 수 
