@@ -19,7 +19,7 @@
 371. Sum of Two Integers : 두수를 더하는데 +,-기호를 안쓰고 더하기
 448. Find All Numbers Disappeared in an Array : array속에 없는 숫자를 찾는 문제 -> set이용시 편하다
 557. Reverse Words in a String III : 주어진 문자열를 단어별로 reverse한 문자열을 생성하는 문제 -> slice, reversed함수
-572. Subtree of Another Tree : 
+572. Subtree of Another Tree : 2가지 트리가 주어질때 한가지 tree가 다른 tree의 서브트링인지 판단하는 문제
 605. Can Place Flowers : 주어진 배열에서 1은 연속적으로 존재하지 못할때 1을 넣을수 있는 최대 수 
 617. Merge Two Binary Trees : 2개의 바이너리 트리를 합치는 문제(둘다 null 아닐경우 tree의 val를 합치고, 한쪽만 null일경우 subtree를 가지게하면 처리된다.) ->binary tree문제 <자료구조>
 665. Non-decreasing Array: 배열의 원소를 최대 한번만 바꾸어 오름차순인 배열을 만들수 있나를 판단하는  <*> 
