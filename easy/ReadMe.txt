@@ -20,8 +20,10 @@
 448. Find All Numbers Disappeared in an Array : array속에 없는 숫자를 찾는 문제 -> set이용시 편하다
 557. Reverse Words in a String III : 주어진 문자열를 단어별로 reverse한 문자열을 생성하는 문제 -> slice, reversed함수
 572. Subtree of Another Tree : 2가지 트리가 주어질때 한가지 tree가 다른 tree의 서브트링인지 판단하는 문제
+589. N-ary Tree Preorder Traversal : tree를 전위 순회하는 문제 -> tree <자료구조>
 605. Can Place Flowers : 주어진 배열에서 1은 연속적으로 존재하지 못할때 1을 넣을수 있는 최대 수 
 617. Merge Two Binary Trees : 2개의 바이너리 트리를 합치는 문제(둘다 null 아닐경우 tree의 val를 합치고, 한쪽만 null일경우 subtree를 가지게하면 처리된다.) ->binary tree문제 <자료구조>
 665. Non-decreasing Array: 배열의 원소를 최대 한번만 바꾸어 오름차순인 배열을 만들수 있나를 판단하는  <*> 
 669. Trim a Binary Search Tree : 이진 트리의 구성중 low와 high 범위밖의 값을 가지면 제거해주는 문제(하위 트리와 연결을 해줘야한다.) -> binary tree <자료구조>
 674. Longest Continuous Increasing Subsequence : 배열에 원소중 오름차순으로 정리된 부분배열이 최대 몇개의 원소를 포함하는가? 
+703. Kth Largest Element in a Stream : 배열에서 k번째로 큰 수를 반환하는문제 (계쏙 추가) -> 우선순위 큐 <자료구조>
