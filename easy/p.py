@@ -1,3 +1,4 @@
+'''
 l1=[1,2,3,4,5]
 l2=[6,7,8,9]
 
@@ -14,3 +15,9 @@ a={}
 a[1]=4
 l4.append(a)
 print(l4)
+'''
+
+num=4
+for i in range(1,26,1):
+    print(num*i)
+

@@ -27,3 +27,5 @@
 669. Trim a Binary Search Tree : 이진 트리의 구성중 low와 high 범위밖의 값을 가지면 제거해주는 문제(하위 트리와 연결을 해줘야한다.) -> binary tree <자료구조>
 674. Longest Continuous Increasing Subsequence : 배열에 원소중 오름차순으로 정리된 부분배열이 최대 몇개의 원소를 포함하는가? 
 703. Kth Largest Element in a Stream : 배열에서 k번째로 큰 수를 반환하는문제 (계쏙 추가) -> 우선순위 큐 <자료구조>
+705. Design HashSet : hash set을 디자인하는 문제(hash set: 같은 원소는 단 하나만 존재) ->hash set<자료구조>
+849. Maximize Distance to Closest Person : 일자로 나열된 자리에 앉을때 가장 가까이에 있는 사람과의 최대의 거리를 구하는 문제
