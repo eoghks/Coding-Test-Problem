@@ -29,3 +29,4 @@
 703. Kth Largest Element in a Stream : 배열에서 k번째로 큰 수를 반환하는문제 (계쏙 추가) -> 우선순위 큐 <자료구조>
 705. Design HashSet : hash set을 디자인하는 문제(hash set: 같은 원소는 단 하나만 존재) ->hash set<자료구조>
 849. Maximize Distance to Closest Person : 일자로 나열된 자리에 앉을때 가장 가까이에 있는 사람과의 최대의 거리를 구하는 문제
+852. Peak Index in a Mountain Array : 배열을 산이라 할때 산의 꼭대기가 어딘지 찾는 문제
