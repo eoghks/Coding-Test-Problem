@@ -16,8 +16,17 @@ a[1]=4
 l4.append(a)
 print(l4)
 '''
-
+'''
 num=4
 for i in range(1,26,1):
     print(num*i)
+'''
+
+from collections import Counter
+
+
+word="adefzdfzezfdfad"
+counters=Counter(word)
+counters['q']-=1
+print(counters)
 
