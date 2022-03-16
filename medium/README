@@ -1,3 +1,6 @@
 3. Longest Substring Without Repeating Characters :주어진 string의 반복되는 문자를 안갖는 substring의 최대 길이를 구하는 문제
-5. Longest Palindromic Substring : 주어진 string에서 가장긴 길이의 회문을 찾는 문제 -> dynamic (principle of optimality를 만족)
+5. Longest Palindromic Substring : 주어진 string에서 가장긴 길이의 회문을 찾는 문제 -> dynamic (principle of optimality를 만족) <*>
 11. Container With Most Water : height가 차례대로 list로 주어지고 2개의 height를 벽으로 삼는 최대 넓이의 수조의 크기를 구하느문제 -> 두점을 이용한다.(넓게 생각해야한다.)
+17. Letter Combinations of a Phone Number : 주어진 number의 조합으로 만들수있는 string을 반환하는 문제 -> 회귀 or dfs 문제 (backtracking)
+
+24. Swap Nodes in Pairs : 주어진 linked list의 2n과 2n-1을 서로 바꾸는 문제 -> linked list ( val , next를 바꾸는 방법 2가지가 존재)
