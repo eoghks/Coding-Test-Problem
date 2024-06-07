@@ -24,10 +24,13 @@ class Solution {
             while(prev.next != null && prev.next.val < head.val ) {
                 prev = prev.next;
             }
+           
+            // prev.val < head.val < prev.next.val 이기 때문에
+            // prev -> prev.next -> ... head 를 prev -> head -> prev.next -> ...으로 변경
             ListNode next = head.next;
-            
             head.next = prev.next;
             prev.next = head;
+            //next 로 head를 변경
             head = next;
         }
         return result.next;
