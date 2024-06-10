@@ -4,7 +4,6 @@ class Solution {
         for(int i: nums) {
             if(map.containsKey(i) ==true) {
                 map.put(i, map.get(i) + 1);
-                int count = map.get(i);
             } else {
                 map.put(i, 1);
             }
