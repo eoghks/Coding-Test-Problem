@@ -10,7 +10,7 @@ class Solution {
                 map.put(i, 1);
             }
         }
-        System.out.println(map.size());
+
         for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if(entry.getValue() == 1) {
                 return entry.getKey().intValue();
