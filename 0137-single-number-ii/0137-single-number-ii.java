@@ -2,7 +2,7 @@ class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int i: nums) {
-            //Integer num = new Integer(i);
+
             if(map.containsKey(i) ==true) {
                 map.put(i, map.get(i) + 1);
                 int count = map.get(i);
