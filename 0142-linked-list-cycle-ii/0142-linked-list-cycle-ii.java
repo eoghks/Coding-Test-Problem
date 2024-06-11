@@ -11,7 +11,7 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        //플로이드 알고리즘 적용하기
+        //플로이드 알고리즘
         if (head == null || head.next == null) {
             return null;
         }
