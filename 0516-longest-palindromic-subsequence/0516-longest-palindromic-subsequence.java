@@ -17,7 +17,7 @@ class Solution {
         int len = s.length();
         int [][] arr = new int [len][len];
     
-        /*
+        //if len 4 33 -> 22 -> 23 -> 11 -> 12 -> 13 -> 00 -> 01 -> 02 -> 03 
         for(int i = len -1; i >= 0; i--) {
             arr[i][i] = 1;
             for(int j = i +1 ; j< len; j++) {
@@ -26,8 +26,10 @@ class Solution {
                 else
                     arr[i][j] = Math.max(arr[i][j-1], arr[i+1][j]);
             } 
-        }*/
+        }
         
+        //if len =4 00 -> 11 -> 01 -> 22 -> 12 -> 02 -> 33 -> 23 -> 13 -> 03
+        /*
         for(int i = 0; i < len; i++) {
             arr[i][i] = 1;
             for(int j= i-1; j >= 0; j--) {
@@ -36,9 +38,7 @@ class Solution {
                 else
                     arr[j][i] = Math.max(arr[j][i-1], arr[j+1][i]);
             }
-        }
-        
-        
+        }*/
         return arr[0][len-1];
     }
 }
