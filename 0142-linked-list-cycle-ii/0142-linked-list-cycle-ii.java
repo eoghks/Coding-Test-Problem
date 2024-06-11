@@ -11,6 +11,9 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
+        if (head == null) {
+            return head;
+        }
         /*
         ListNode result = null;
         Set<ListNode> set = new HashSet<ListNode>();
@@ -22,10 +25,7 @@ public class Solution {
             }
             head =head.next; 
         }
-        return result;*/
-        if (head == null) {
-            return head;
-        }
+        return result;*/ 
         ListNode fast = head.next;
         ListNode slow = head;
         while (fast != null && fast.next != null) {
@@ -35,9 +35,10 @@ public class Solution {
                 break;
             }
         }
-        if (fast != slow) {
+        if (fast == null || fast.next == null) {
             return null;
         }
+        
         fast = head;
         slow = slow.next;
         while (fast != slow) {
