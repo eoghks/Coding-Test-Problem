@@ -11,27 +11,15 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
+        //플로이드 알고리즘 적용하기
         if (head == null || head.next == null) {
             return null;
         }
-        /*
-        ListNode result = null;
-        Set<ListNode> set = new HashSet<ListNode>();
-        while(head != null) {
-            set.add(head);
-            if(set.contains(head.next) == true){
-                result = head.next;
-                break;
-            }
-            head =head.next; 
-        }
-        return result;*/
-        //플로이드 알고리즘 적용하기
-        ListNode fast = head.next.next;
         ListNode slow = head.next;
+        ListNode fast = head.next.next;
         while (fast != null && fast.next != null) {
-            fast = fast.next.next;
             slow = slow.next;
+            fast = fast.next.next;
             if (fast == slow) {
                 break;
             }
@@ -45,5 +33,17 @@ public class Solution {
             slow = slow.next;
         }
         return slow;
+        /*
+        ListNode result = null;
+        Set<ListNode> set = new HashSet<ListNode>();
+        while(head != null) {
+            set.add(head);
+            if(set.contains(head.next) == true){
+                result = head.next;
+                break;
+            }
+            head =head.next; 
+        }
+        return result;*/
     }
 }
