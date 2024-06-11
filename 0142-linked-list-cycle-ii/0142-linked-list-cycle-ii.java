@@ -26,17 +26,17 @@ public class Solution {
             head =head.next; 
         }
         return result;*/
-        //플로이드 알고리즘
-        ListNode slow = head.next;
+        //플로이드 알고리즘 적용하기
         ListNode fast = head.next.next;
+        ListNode slow = head.next;
         while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
             if (fast == slow) {
                 break;
             }
-            fast = fast.next.next;
-            slow = slow.next;
         }
-        if (fast == null || fast.next == null) {
+        if (fast != slow) {
             return null;
         } 
         slow = head;
