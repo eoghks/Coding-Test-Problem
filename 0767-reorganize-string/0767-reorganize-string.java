@@ -1,8 +1,5 @@
 class Solution {
     public String reorganizeString(String s) {
-        //1223333
-        //0 -> 짝수 채우기
-        //1부터 홀수 채우기
         if(s.length() == 1) {
             return s;
         }
@@ -17,8 +14,7 @@ class Solution {
 
         List<Map.Entry<String, Integer>> entryList = new LinkedList<>(map.entrySet());
         entryList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
-        
-        //2 -> 2 3 -> 3 4-> 3 5-> 4 (n+1)/2 +1
+
         if(entryList.get(0).getValue() >= (s.length()+1)/2 + 1) {
             return "";
         }
