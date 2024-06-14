@@ -33,7 +33,8 @@ class Solution {
       }
 
       ListNode merge(ListNode l1, ListNode l2) {
-        ListNode l = new ListNode(0), p = l;
+        ListNode l = new ListNode(0);
+        ListNode p = l;
 
         while (l1 != null && l2 != null) {
           if (l1.val < l2.val) {
