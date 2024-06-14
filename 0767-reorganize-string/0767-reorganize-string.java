@@ -3,32 +3,37 @@ class Solution {
         if(s.length() == 1) {
             return s;
         }
-        Map<String, Integer> map = new HashMap<String, Integer>();
-        String[] strs = s.split("");
-        for(String str: strs) {
-            if(map.containsKey(str)) 
-                map.put(str, map.get(str) + 1);
-            else
-                map.put(str, 1);
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        StringBuilder sb = new StringBuilder();
+        for(char c: s.toCharArray()) {
+            int count = map.getOrDefault(c, 0) + 1;
+            if(count > (s.length()+1) /2)
+                return "";
+            map.put(c, count);
         }
 
-        List<Map.Entry<String, Integer>> entryList = new LinkedList<>(map.entrySet());
-        entryList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
-
-        if(entryList.get(0).getValue() >= (s.length()+1)/2 + 1) {
-            return "";
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        for (char c : map.keySet()) {
+            pq.add(new int[] {c, map.get(c)});
         }
-        int i = 0;
-        for(Map.Entry<String, Integer> entry : entryList) {
-            for(int j=0; j < entry.getValue(); j++) {
-                strs[i] = entry.getKey();
-                if(i+2 >= s.length()){
-                   i = 1 ; 
-                } else{
-                    i += 2;
+        
+        while(pq.isEmpty() == false) {
+            int[] first = pq.poll();
+            if (sb.length() == 0 || first[0] != sb.charAt(sb.length() - 1)) {
+                sb.append((char) first[0]);
+                if (--first[1] > 0) {
+                    pq.add(first);
                 }
+            } else {
+                int[] second = pq.poll();
+                sb.append((char) second[0]);
+                if (--second[1] > 0) {
+                    pq.add(second);
+                }
+                pq.add(first);
             }
         }
-        return String.join("", strs);
+        
+        return sb.toString();
     }
 }
