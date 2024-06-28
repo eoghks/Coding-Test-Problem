@@ -28,8 +28,7 @@ class Solution {
     }
     
     public Node cloneNode(Node node, Map<Integer, Node> map) {
-        Node newNode = new Node();
-        newNode.val = node.val;
+        Node newNode = new Node(node.val);
         map.put(newNode.val, newNode);
         for(Node neighbor: node.neighbors) {
             if(map.containsKey(neighbor.val))
