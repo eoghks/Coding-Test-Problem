@@ -30,10 +30,10 @@ class Solution {
         Node newNode = new Node(node.val);
         map.put(newNode.val, newNode);
         for(Node neighbor: node.neighbors) {
-            if(map.containsKey(neighbor.val))
-                newNode.neighbors.add(map.get(neighbor.val));
-            else
-                newNode.neighbors.add(cloneNode(neighbor, map));
+            Node newNeighbor = map.get(neighbor.val);
+            if(newNeighbor == null)
+                newNeighbor = cloneNode(neighbor, map);
+             newNode.neighbors.add(newNeighbor);
         }
         return newNode;
     }
