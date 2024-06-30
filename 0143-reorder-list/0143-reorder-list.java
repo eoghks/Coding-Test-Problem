@@ -12,7 +12,6 @@ class Solution {
     public void reorderList(ListNode head) {
         if(head == null || head.next == null)
             return;
-
         Deque<ListNode> deq = new ArrayDeque<ListNode>();
         ListNode dummy = head;
         while(dummy != null) {
@@ -20,25 +19,20 @@ class Solution {
             dummy = dummy.next;
         }
 
-        while(deq.isEmpty() == false) {
-            ListNode front = deq.pollFirst();
-            ListNode end = deq.pollLast();
-            if(end != null) {
-                reorder(front, end);
-                dummy = end;
-            } else
-                dummy = front;
+        int len = (deq.size() - 1) / 2;
+        dummy = head;
+        for(int i =0; i < len; i++) {
+            ListNode last = deq.pollLast();
+
+            ListNode temp = dummy.next;
+            dummy.next = last;
+            last.next = temp;
+
+            dummy = temp;
+           
         }
-        if(dummy != null) {
-            dummy.next = null;
-        }
-        
-        return;
+       
+        deq.pollLast().next = null;
     }
-    
-    public void reorder(ListNode front, ListNode end) {
-        ListNode temp = front.next;
-        front.next = end;
-        end.next = temp;
-    }
+
 }
