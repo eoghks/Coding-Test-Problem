@@ -10,7 +10,7 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        if(head == null || head.next == null || head.next.next == null)
+        if(head == null || head.next == null)
             return;
 
         Deque<ListNode> deq = new ArrayDeque<ListNode>();
