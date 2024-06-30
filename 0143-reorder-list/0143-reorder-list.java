@@ -23,13 +23,10 @@ class Solution {
         dummy = head;
         for(int i =0; i < len; i++) {
             ListNode last = deq.pollLast();
-
             ListNode temp = dummy.next;
             dummy.next = last;
             last.next = temp;
-
             dummy = temp;
-           
         }
        
         deq.pollLast().next = null;
