@@ -29,4 +29,3 @@ class Solution {
         return result.next;
     }
 }
-//3개가 들어오면 2개로 합쳐...
