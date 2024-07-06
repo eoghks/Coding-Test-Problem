@@ -1,8 +1,10 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        long size = IntStream.of(nums).distinct().count();
-        if(size== nums.length)
-            return false;
-        return true;
+        Set<Integer> set = new HashSet<>();
+        for(int i=0; i < nums.length; i++){
+            if(set.add(nums[i]) == false)
+                return true;
+        }    
+        return false;
     }
 }
