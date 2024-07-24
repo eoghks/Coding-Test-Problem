@@ -14,8 +14,7 @@ class Solution {
             else
                 dp[i-1] =  prices[i] - prices[i-1];
             
-            if(result < dp[i-1])
-                result = dp[i-1];
+            result = Math.max(dp[i-1], result);
         }
         */
         // real soultion
