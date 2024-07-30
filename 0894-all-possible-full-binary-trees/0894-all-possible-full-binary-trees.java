@@ -18,16 +18,21 @@ class Solution {
         if(n%2 == 0) {
             return new ArrayList<>();
         }
-        Map<Integer, List<TreeNode>> map = new HashMap<>();
-        List<TreeNode> first = new ArrayList<>();
-        first.add(new TreeNode());
-        map.put(1, first);
+        List<List<TreeNode>> dp = new ArrayList<List<TreeNode>>();
+        //Map<Integer, List<TreeNode>> map = new HashMap<>();
+        for (int i = 0; i <= n; i++) {
+            dp.add(i, new ArrayList<TreeNode>());
+        }
+        //List<TreeNode> first = new ArrayList<>();
+        //first.add(new TreeNode());
+        //map.put(1, first);
+        dp.get(1).add(new TreeNode(0));
         
         for(int i = 3; i <= n; i += 2) {
-            List<TreeNode> temp = new ArrayList<>();
+            List<TreeNode> temp = dp.get(i);
             for(int j = 1; j < i; j += 2) {
-                List<TreeNode> left = map.get(j);
-                List<TreeNode> right = map.get(i - j -1);
+                List<TreeNode> left = dp.get(j);
+                List<TreeNode> right = dp.get(i - j -1);
                 for(TreeNode l: left) {
                     for(TreeNode r: right) {
                         TreeNode node = new TreeNode();
@@ -37,9 +42,10 @@ class Solution {
                     }
                 }
             }
-            map.put(i, temp);
+            
+            //map.put(i, temp);
         }
 
-        return map.get(n);
+        return dp.get(n);
     }
 }
