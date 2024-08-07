@@ -1,6 +1,7 @@
 class Solution {
+    //recursive dp
+    /*
     public boolean stoneGame(int[] piles) {
-        
         int n = piles.length;
         int[][] dp = new int[n+1][n+1];
         for(int i = 0; i < n; i++) {
@@ -27,5 +28,24 @@ class Solution {
         dp[left][right] = Math.max(beginning, end);
         return dp[left][right];
         
+    }*/
+    
+    //dp 반복문
+    public boolean stoneGame(int[] piles) {
+        int n = piles.length;
+        int[][] dp = new int[n][n];
+        for(int i = 0; i < n; i++) {
+            dp[i][i] = piles[i];
+        }
+        
+        //크기가 2인 배열부터 차분히 구함 -> 3 -> ... ->n 
+        for(int j = 1; j < n; j++) {
+            for(int i =0; i < n -j; i++) {
+                dp[i][i+j] = Math.max(piles[i] - dp[i+1][i+j], piles[i+j] - dp[i][i+j-1] );
+            }
+        }
+        
+        
+        return dp[0][n-1] > 0;
     }
 }
