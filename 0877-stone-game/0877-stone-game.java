@@ -8,7 +8,8 @@ class Solution {
             }
         }
         
-        return solution(piles, 0, n-1, true, dp) > 0; 
+        //eturn solution(piles, 0, n-1, true, dp) > 0; 
+        return true;
     }
     
     public int solution(int[] piles, int left, int right, boolean aliceTurn, int[][]dp) {
