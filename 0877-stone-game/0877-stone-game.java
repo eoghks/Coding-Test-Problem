@@ -1,6 +1,6 @@
 class Solution {
     public boolean stoneGame(int[] piles) {
-        /*
+        
         int n = piles.length;
         int[][] dp = new int[n+1][n+1];
         for(int i = 0; i < n; i++) {
@@ -9,10 +9,9 @@ class Solution {
             }
         }
         
-        return solution(piles, 0, n-1, true, dp) > 0; */
-        return true;
+        return solution(piles, 0, n-1, true, dp) > 0; 
     }
-    /*
+    
     public int solution(int[] piles, int left, int right, boolean aliceTurn, int[][]dp) {
         if(left > right)
             return 0;
@@ -28,5 +27,5 @@ class Solution {
         dp[left][right] = Math.max(beginning, end);
         return dp[left][right];
         
-    }*/
+    }
 }
