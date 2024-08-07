@@ -1,5 +1,5 @@
 class Solution {
-    //recursive dp
+    //top-down
     /*
     public boolean stoneGame(int[] piles) {
         int n = piles.length;
@@ -30,7 +30,7 @@ class Solution {
         
     }*/
     
-    //dp 반복문
+    //bottom up
     public boolean stoneGame(int[] piles) {
         int n = piles.length;
         int[][] dp = new int[n][n];
