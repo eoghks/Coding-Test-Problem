@@ -4,21 +4,21 @@ class Solution {
         int[] small = new int[rating.length];
         int[] large = new int[rating.length];
         
-        for(int i = 0; i < rating.length; i++) {
-            for(int j = 0; j< i; j++) {
-                if(rating[j] < rating[i])
-                    large[i]++;
-                else if(rating[j] > rating[i]) 
+        for(int i=0; i<rating.length; i++) {
+            for(int j=i+1; j<rating.length; j++) {
+                if(rating[i] < rating[j])
                     small[i]++;
+                else if(rating[i] > rating[j]) 
+                    large[i]++;
             }
         }
         
         for(int i = 0; i < rating.length; i++) {
-            for(int j = 0; j < i; j++) {
-                if(rating[j] < rating[i])
-                    cnt += large[j];
-                else if(rating[j] > rating[i]) 
+             for(int j=i+1; j<rating.length; j++) {
+                if(rating[i] < rating[j])
                     cnt += small[j];
+                else if(rating[i] > rating[j]) 
+                    cnt += large[j];
             }
         }
         
