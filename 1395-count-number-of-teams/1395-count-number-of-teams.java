@@ -4,7 +4,7 @@ class Solution {
         int[] small = new int[rating.length];
         int[] large = new int[rating.length];
         
-        for(int i=0; i<rating.length; i++) {
+        for(int i=0; i<rating.length-1; i++) {
             for(int j=i+1; j<rating.length; j++) {
                 if(rating[i] < rating[j])
                     small[i]++;
@@ -13,7 +13,7 @@ class Solution {
             }
         }
         
-        for(int i = 0; i < rating.length; i++) {
+        for(int i = 0; i < rating.length-1; i++) {
              for(int j=i+1; j<rating.length; j++) {
                 if(rating[i] < rating[j])
                     cnt += small[j];
