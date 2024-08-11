@@ -3,7 +3,7 @@ class Solution {
     
     public int getKth(int lo, int hi, int k) {
          PriorityQueue<int[]> pq 
-             = new PriorityQueue<>((a,b)-> b[1]!=a[1] ?a[1]-b[1]:a[0]-b[0]);
+             = new PriorityQueue<>((a,b)-> a[1]==b[1] ?a[0]-b[0]:a[1]-b[1]);
         dp.put(1 , 0);
         for(int i = lo; i<=hi; i++) {
             pq.add(new int[]{i, solution(i)});
