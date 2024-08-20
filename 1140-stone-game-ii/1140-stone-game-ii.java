@@ -13,12 +13,11 @@ class Solution {
         return solution(piles, 0, 1);
     }
     public int solution(int[] piles, int i, int M) {
-        if(i==piles.length)
-            return 0;
         if(2*M >= piles.length -i)
             return sum[i];
         if(temp[i][M] != 0)
             return temp[i][M];
+            
         int min = Integer.MAX_VALUE; // 다음 플레이어가 가져갈수 있는 돌
         for(int j=1; j<=2*M; j++) {
             min = Math.min(min, solution(piles, i+j, Math.max(M,j)));
