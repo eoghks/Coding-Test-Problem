@@ -15,7 +15,7 @@ class Solution {
                 }
                 left++;
             }
-            result = Math.max(result, right-left+1-zero);
+            result = Math.max(result, right-left);
         }
         
         return result == n ? result-1 : result;
