@@ -18,6 +18,6 @@ class Solution {
             result = Math.max(result, right-left);
         }
         
-        return result == n ? result-1 : result;
+        return result;
     }
 }
