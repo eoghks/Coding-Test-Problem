@@ -7,20 +7,20 @@ class Solution {
         temp = new ArrayList<>();
         Arrays.sort(candidates);
         can = candidates;
-        solution(target, 0, 0);
+        solution(target, 0);
         return res;
     }
     
-    public void solution(int target, int idx, int cur) {
-        if(cur == target) {
+    public void solution(int target, int idx) {
+        if(target == 0) {
             res.add(new ArrayList<>(temp));
             return;
         } 
         
         for(int i=idx; i<can.length; i++) {
-            if(cur+can[i] <= target) {
+            if(target-can[i] >= 0) {
                 temp.add(can[i]);
-                solution(target, i, cur+can[i]);
+                solution(target-can[i], i);
                 temp.remove(temp.size()-1);
             } else
                 break;
