@@ -1,5 +1,4 @@
-class Solution {
-    
+class Solution { 
     List<List<Integer>> res ;
     List<Integer> temp;
     int[] candidate;
