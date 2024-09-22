@@ -1,5 +1,4 @@
 class Solution {
-    
     List<List<Integer>> res ;
     int[] candidate;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
