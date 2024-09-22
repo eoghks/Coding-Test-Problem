@@ -1,18 +1,16 @@
 class Solution {
     
     List<List<Integer>> res ;
-    List<Integer> temp;
     int[] candidate;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         res = new ArrayList<>();
-        temp = new ArrayList<>();
         Arrays.sort(candidates);
         candidate = candidates;
-        solution(target, 0);
+        solution(target, 0, new ArrayList<>());
         return res;
     }
     
-    public void solution(int target, int idx) {
+    public void solution(int target, int idx, List<Integer> temp) {
         if(target == 0 ) {
             if(res.contains(temp) == false)
                 res.add(new ArrayList<>(temp));
@@ -30,7 +28,7 @@ class Solution {
                 if(i > idx && candidate[i] == candidate[i-1])
                     continue;
                 temp.add(candidate[i]);
-                solution(target-candidate[i], i+1);
+                solution(target-candidate[i], i+1, temp);
                 temp.remove(temp.size()-1);
             } else
                 break;
