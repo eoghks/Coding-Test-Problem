@@ -23,7 +23,7 @@ class Solution {
     }
     
      public void solution2(int[] nums, int st) {
-        if(st == nums.length) {
+        if(st == nums.length-1) {
             List<Integer> list = new ArrayList<>();
             for (int num : nums) {
                 list.add(num);
