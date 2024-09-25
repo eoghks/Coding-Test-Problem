@@ -15,7 +15,6 @@ class Solution {
                     cnt++;
             }
         }
-        System.out.println("row: "+cnt);
         return cnt;
     }
     
@@ -27,7 +26,6 @@ class Solution {
                     cnt++;
             }
         }
-                 System.out.println("col :" +cnt);
         return cnt;
     }
     
