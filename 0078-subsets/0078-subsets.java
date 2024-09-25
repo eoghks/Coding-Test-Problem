@@ -10,6 +10,7 @@ class Solution {
         res.add(new ArrayList<>(list));
         if(idx==nums.length) 
             return;
+        
         for(int i = idx; i<nums.length; i++) {
             list.add(nums[i]);
             solution(list, nums, i+1);
