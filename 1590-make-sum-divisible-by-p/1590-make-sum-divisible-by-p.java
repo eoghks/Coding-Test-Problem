@@ -2,10 +2,11 @@ class Solution {
     public int minSubarray(int[] nums, int p) {
         int n = nums.length;
         int res = n;
-        int need = 0;
+        long sum = 0;
         for(int num: nums){
-            need=(need+num)%p;
+            sum+=num;
         }
+        int need = (int)(sum%p);
         if(need == 0)
             return 0;
         
