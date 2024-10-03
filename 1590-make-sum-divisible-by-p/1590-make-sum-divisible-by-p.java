@@ -20,7 +20,5 @@ class Solution {
             res = Math.min(res, i - map.getOrDefault(want, -n));
         }
         return res == n?-1:res;
-        
-        
     }
 }
