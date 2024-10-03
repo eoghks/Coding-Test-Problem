@@ -15,8 +15,8 @@ class Solution {
         int cur = 0;
         for(int i=0; i<n; i++) {
             cur= (cur + nums[i])%p;
-            map.put(cur, i);
-            int want = (cur - need + p)%p;
+            map.put(cur, i); //현재 나머지를 Map에 저장
+            int want = (cur - need + p)%p; //현재 나머지가 Need 나머지가 되기위해 필요한값을 구한다.
             res = Math.min(res, i - map.getOrDefault(want, -n));
         }
         return res == n?-1:res;
