@@ -1,28 +1,25 @@
 class Solution {
     public String convert(String s, int numRows) {
-        Map<Integer, StringBuilder> map = new HashMap<>();
+        StringBuilder[] sb = new StringBuilder[numRows];
         for(int i=0; i<numRows; i++) {
-            map.put(i, new StringBuilder());
+            sb[i] = new StringBuilder();
         }
 
+        char[] c = s.toCharArray();
         int idx = 0;
-        boolean isPlus = true;
-        for(int i=0; i<s.length(); i++) {
-            StringBuilder sb = map.get(idx%numRows);
-            sb.append(s.charAt(i));
-            if(isPlus) {
-                idx++;
-            } else{
-                idx--;
+        int len = s.length();
+        while(idx < len) {
+            for(int i=0; i<numRows && idx<len; i++) {
+                sb[i].append(c[idx++]);
             }
-            if(idx==0 || idx== numRows-1)
-                isPlus = !isPlus;
+            for(int i=numRows-2; i>=1 && idx<len; i--) {
+                sb[i].append(c[idx++]);
+            }
         }
         
-        StringBuilder res = new StringBuilder();
-        for(int i=0; i<numRows; i++) {
-            res.append(map.get(i).toString()); 
+        for(int i=1; i<numRows; i++) {
+            sb[0].append(sb[i].toString()); 
         }
-        return res.toString();
+        return sb[0].toString();
     }
 }
