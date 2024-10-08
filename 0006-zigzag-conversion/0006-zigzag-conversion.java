@@ -9,9 +9,11 @@ class Solution {
         int idx = 0;
         int len = s.length();
         while(idx < len) {
+            //up
             for(int i=0; i<numRows && idx<len; i++) {
                 sb[i].append(c[idx++]);
             }
+            //down
             for(int i=numRows-2; i>=1 && idx<len; i--) {
                 sb[i].append(c[idx++]);
             }
