@@ -4,6 +4,7 @@ class Solution {
         for(int i=0; i<numRows; i++) {
             map.put(i, new StringBuilder());
         }
+
         int idx = 0;
         boolean isPlus = true;
         for(int i=0; i<s.length(); i++) {
