@@ -19,12 +19,14 @@ class Solution {
         while(pq.size() == nums.size()) {
             Node n = pq.remove();
             
+            //오름차순으로 정렬되어 있으므로 ==은 비교하지 않아도된다.
             if(curMax - n.val < range) {
                 range = curMax - n.val;
                 resMin = n.val;
                 resMax = curMax;
             }
             
+            //Node 재활용
             if(n.idx+1 < nums.get(n.row).size()) {
                 n.idx++;
                 n.val = nums.get(n.row).get(n.idx);
