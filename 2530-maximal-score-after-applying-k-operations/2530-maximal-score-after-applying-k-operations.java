@@ -1,7 +1,7 @@
 class Solution {
     public long maxKelements(int[] nums, int k) {
         long sum = 0;
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> b-a);
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         for(int i: nums)
             pq.add(i);
         int i =0;
