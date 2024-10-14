@@ -8,7 +8,7 @@ class Solution {
         while(i<k) {
             int n = pq.remove();
             sum+=n;
-            pq.add((int)Math.ceil(n/3.0));
+            pq.add((int)Math.ceil((double)n/3));
             i++;
         }
         
