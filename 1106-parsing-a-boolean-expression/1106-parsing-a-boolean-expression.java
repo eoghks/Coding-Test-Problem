@@ -7,13 +7,13 @@ class Solution {
                 Set<Character> set = new HashSet<>();
                 while(st.peek() != '(')
                     set.add(st.pop());
-                st.pop();
+                st.pop();// '(' 버리기
                 char op = st.pop();
                 if(op == '&') {
                     st.push(set.contains('f') ? 'f' : 't');
                 } else if(op == '|') {
                     st.push(set.contains('t') ? 't' : 'f');
-                } else {
+                } else if(op == '!') {
                     st.push(set.contains('t') ? 'f' : 't');
                 }
             } else if(c != ',') {
