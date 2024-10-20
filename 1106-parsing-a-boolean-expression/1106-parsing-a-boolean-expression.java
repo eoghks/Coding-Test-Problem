@@ -1,6 +1,6 @@
 class Solution {
     public boolean parseBoolExpr(String expression) {
-        Deque<Character> st = new ArrayDeque<>();
+        Stack<Character> st = new Stack<>();
         char[] chs = expression.toCharArray();
         for(char c: chs) {
             if(c==')') {
