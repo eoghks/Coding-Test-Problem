@@ -28,6 +28,7 @@ class Solution {
         return res;
     }
     
+    //오른쪽 왼쪽을 지워가면 높이를 구한다. 
     private void getRemoveHeight(TreeNode node, int height) {
         if(node == null)
             return;
