@@ -1,5 +1,5 @@
 class Solution {
-    //use set
+    //use set  66ms, 63MB
     /*
     public int longestSquareStreak(int[] nums) {
         int res = 0;
@@ -24,8 +24,8 @@ class Solution {
 
         return res > 1? res : -1;
     }*/
-    //use map
-     public int longestSquareStreak(int[] nums) {
+    //use map 55ms, 50.5MB
+    public int longestSquareStreak(int[] nums) {
         int res=-1;
         Arrays.sort(nums);
         HashMap<Integer,Integer> map=new HashMap<>();
@@ -42,6 +42,5 @@ class Solution {
             }
         }
         return res;
-        
-    }
+    }   
 }
