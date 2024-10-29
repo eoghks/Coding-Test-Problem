@@ -3,6 +3,7 @@ class Solution {
     int[] move = {-1, 0, 1};
     int n;
     int m;
+    
     public int maxMoves(int[][] grid) {
         int res = 0;
         m = grid.length;
@@ -16,6 +17,7 @@ class Solution {
         }
         return res;
     }
+    
     private int solution(int[][] grid, int i, int j) {
         if(dp[i][j] != -1)
             return dp[i][j];
