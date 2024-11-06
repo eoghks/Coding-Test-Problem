@@ -5,7 +5,7 @@ class Solution {
         for(int i=1; i<n; i++) {
             int x1 = Integer.bitCount(nums[i-1]);
             int x2 = Integer.bitCount(nums[i]);
-            if(x1 != x2) {//같은 경우 달라지는 시기에 한번에 정렬한다.
+            if(x1 != x2) {//1의 수가 경우 달라지는 시기에 한번에 정렬한다.(1의 수가 같은 경우 정렬 가능)
                 Arrays.sort(nums, idx, i);
                 idx = i;
             } 
