@@ -1,8 +1,8 @@
 class Solution {
     //solution1
-    /*
+    List<Integer> primes;
     public boolean primeSubOperation(int[] nums) {
-        List<Integer> primes = getPrims(1000);
+        primes = getPrims(1000);
         for(int i = nums.length-1; i>=1; i--) {
             if(nums[i-1] >= nums[i]) {
                 int idx = -1;
@@ -20,10 +20,10 @@ class Solution {
             }
         }
         return true;
-    }*/
+    }
     
     //soultion2 ->binary search
-    List<Integer> primes;
+    /*
     public boolean primeSubOperation(int[] nums) {
         primes = getPrims(1000);
         int prev = 0;
@@ -33,7 +33,7 @@ class Solution {
             prev = n - search(n-prev);
         }
         return true;
-    }
+    }*/
     
     private int search(int n) {
         int st = 0;
@@ -54,7 +54,7 @@ class Solution {
         boolean[] primes = new boolean[num+1];
         
         int i=2;
-        res.add(0);
+        //res.add(0); solution2에만
         for(; i*i<=num; i++) {
             if(!primes[i]) {
                 for(int j= i*2; j<=num; j=j+i) {
