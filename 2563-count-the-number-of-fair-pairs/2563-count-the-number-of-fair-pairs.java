@@ -10,9 +10,9 @@ class Solution {
         }
         return res;
     }
-    //014457
+
     private int getLower(int[] nums, int st, int end, int target) {
-        //최소 target 값을 가지는 index를 구한다.
+        //target 값보다 큰 가장 작은 index를 구한다.
         while(st < end) {
             int mid = st + (end-st)/2;
             if(nums[mid] >= target)
@@ -24,6 +24,7 @@ class Solution {
     }
     
     private int getUpper(int[] nums, int st, int end, int target) {
+        //target 값보다 작고 가장 큰 index를 구한다.
         while(st < end) {
             int mid = st + (end-st)/2;
             if(nums[mid] > target)
