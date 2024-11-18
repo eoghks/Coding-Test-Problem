@@ -10,8 +10,7 @@ class Solution {
         int st = 1;
         
         if(k<0) {
-            k = -k;
-            st = n - k;
+            st = n + k;
             end = n - 1;
         }
         
