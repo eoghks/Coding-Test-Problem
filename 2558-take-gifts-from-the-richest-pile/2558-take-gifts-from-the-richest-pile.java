@@ -14,7 +14,7 @@ class Solution {
             k--;
         }
         
-        //남아 있는 선물의 합
+        //남은 선물의 합
         while(pq.size()>0){
             res+=pq.remove();
         }
