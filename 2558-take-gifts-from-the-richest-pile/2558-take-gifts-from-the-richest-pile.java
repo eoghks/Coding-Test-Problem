@@ -8,11 +8,13 @@ class Solution {
             pq.add(gifts[i]);
         }
         
+        //제일 많은 더미를 제곱근해서 다시 넣기
         while(k>0){
             pq.add((int)Math.sqrt(pq.remove()));
             k--;
         }
         
+        //남아 있는 선물의 합
         while(pq.size()>0){
             res+=pq.remove();
         }
