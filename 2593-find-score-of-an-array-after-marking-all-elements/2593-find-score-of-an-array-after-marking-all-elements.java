@@ -15,9 +15,11 @@ class Solution {
             if (!mark[cur[1]]) {
                 mark[cur[1]] = true;
                 res += cur[0];
+                //idx+1 ==> true
                 if (cur[1] - 1 >= 0) {
                     mark[cur[1] - 1] = true;
                 }
+                //idx-1 ==> true
                 if (cur[1] + 1 < n) {
                     mark[cur[1] + 1] = true;
                 }
