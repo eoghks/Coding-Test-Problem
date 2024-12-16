@@ -1,4 +1,6 @@
 class Solution {
+    //solution1
+    /*
     public int[] getFinalState(int[] nums, int k, int multiplier) {
         PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->(a[1]==b[1]? a[0]-b[0]: a[1]-b[1]));
         
@@ -19,5 +21,29 @@ class Solution {
         }
         
         return nums;
+    }*/
+    //solution2
+    public int[] getFinalState(int[] nums, int k, int multiplier) {
+        for (int i = 0; i < k; i++) {
+            int minValue = getMinValue(nums);
+            int minIndexValue = getMinIndexValue(nums, minValue);
+            nums[minIndexValue] = nums[minIndexValue] * multiplier;
+        }
+        return nums;
+    }
+    public int getMinValue(int[] nums) {
+        int minValue = Integer.MAX_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            minValue = Math.min(minValue, nums[i]);
+        }
+        return minValue;
+    }
+    public int getMinIndexValue(int[] nums, int minValue) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == minValue) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
