@@ -23,6 +23,7 @@ class Solution {
         return nums;
     }*/
     //solution2
+    //nums의 길이가 작고 k가 작아서 해당 솔루션이 더 효율적
     public int[] getFinalState(int[] nums, int k, int multiplier) {
         for (int i = 0; i < k; i++) {
             int minValue = getMinValue(nums);
