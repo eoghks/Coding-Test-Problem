@@ -5,7 +5,7 @@ class Solution {
         ArrayList<Character> list = new ArrayList<Character>();
         Stack<Character> stk = new Stack<Character>();
         int cnt = 0;
-        
+        //add pq
         for(char c: s.toCharArray()) {
             pq.add(c);
         }
@@ -14,16 +14,21 @@ class Solution {
         while(!pq.isEmpty()){
             char cur = pq.poll();
             
+            //이전 문자와 같으면
         	if(cur==prev){
+                //limit보다 작으면 추가
         		if(cnt<repeatLimit){
         			sb.append(cur);
         		}
+                //아니면 stack에 추가
         		else{
         			stk.add(cur);
         		}
         		cnt++;
         	}
+            //이전 문자와 다르면
         	else{
+                //stack이 빈경우
         		if(stk.isEmpty()){
         			cnt=0;
         			sb.append(cur);
