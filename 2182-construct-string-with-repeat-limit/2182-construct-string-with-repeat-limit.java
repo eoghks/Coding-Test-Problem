@@ -35,6 +35,7 @@ class Solution {
         			prev = cur;
         			cnt++;
         		}
+                //stack이 잇는 경우
         		else{
         			sb.append(cur);
         			cnt=0;
