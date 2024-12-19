@@ -1,6 +1,7 @@
 class Solution {
     public int maxChunksToSorted(int[] arr) {
         int[] max = new int[arr.length];
+        //0 초기화
         max[0] = arr[0];
         //i까지 나온 최대 수를 구함
         for(int i=1; i<arr.length; i++) {
