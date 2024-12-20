@@ -20,6 +20,7 @@ class Solution {
     }
     
     public void traverse(TreeNode node1, TreeNode node2, int lvl) {
+        //바꿀 대상이 없음
         if (node1 == null || node2 == null) {
             return;
         }
