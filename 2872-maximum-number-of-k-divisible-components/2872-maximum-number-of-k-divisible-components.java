@@ -30,18 +30,18 @@ class Solution {
         return count;
     }
     
-    private long findScores(int prev, int curr, List<Integer>[] graph, int[] values, long[] sum) {
-        sum[curr] = values[curr];
+    private long findScores(int prev, int cur, List<Integer>[] graph, int[] values, long[] sum) {
+        sum[cur] = values[cur];
         
-        for (int next : graph[curr]) {
+        for (int next : graph[cur]) {
             if (next == prev) {
                 continue;
             }
             
-            sum[curr] += findScores(curr, next, graph, values, sum);
+            sum[cur] += findScores(cur, next, graph, values, sum);
         }
         
-        return sum[curr];
+        return sum[cur];
     }
 
 }
