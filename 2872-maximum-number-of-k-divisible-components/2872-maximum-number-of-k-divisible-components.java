@@ -1,6 +1,21 @@
 class Solution {
+    private List<Integer>[] init(int n, int[][] edges) {
+        List<Integer>[] graph = new ArrayList[n];
+
+        for (int id = 0; id < n; id++) {
+            graph[id] = new ArrayList<Integer>();
+        }
+        
+        for (int[] edge : edges) {
+            graph[edge[0]].add(edge[1]);
+            graph[edge[1]].add(edge[0]);
+        }
+        
+        return graph;
+    }
+    
     public int maxKDivisibleComponents(int n, int[][] edges, int[] values, int k) {
-        List<Integer>[] graph = buildGraph(n, edges);
+        List<Integer>[] graph = init(n, edges);
         
         long[] sum = new long[n];
         findScores(-1, 0, graph, values, sum);
@@ -28,18 +43,5 @@ class Solution {
         
         return sum[curr];
     }
-    
-    private List<Integer>[] buildGraph(int n, int[][] edges) {
-        List<Integer>[] graph = new ArrayList[n];
-        for (int id = 0; id < n; id++) {
-            graph[id] = new ArrayList<Integer>();
-        }
-        
-        for (int[] edge : edges) {
-            graph[edge[0]].add(edge[1]);
-            graph[edge[1]].add(edge[0]);
-        }
-        
-        return graph;
-    }
+
 }
