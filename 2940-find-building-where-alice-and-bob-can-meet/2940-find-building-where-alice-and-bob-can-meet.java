@@ -10,6 +10,7 @@ class Solution {
                 pos++;
                 continue;
             }
+            //계산이 필요한 애들만
             int temp[] = new int[3];
             temp[0] = Math.max(q[0], q[1]);
             temp[1] = Math.max(heights[q[0]], heights[q[1]]);
