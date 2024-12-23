@@ -35,10 +35,11 @@ class Solution {
             while(set.size() > 0 && set.first()[0] <= heights[i]){
                 set.remove(set.first());
             }
-            int ele[] = new int[2];
-            ele[0] = heights[i];
-            ele[1] = i;
-            set.add(ele);
+            //set에 넣기
+            int temp[] = new int[2];
+            temp[0] = heights[i];
+            temp[1] = i;
+            set.add(temp);
         }
         
         
