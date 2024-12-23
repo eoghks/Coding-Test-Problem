@@ -30,6 +30,8 @@ class Solution {
                     res[q[2]] = next[1];
                 }
             }
+            //set의 첫번째 요소가 height[i]보다 작으면 삭제하는 이유는
+            //현재 i(왼쪽)에서 만나야하기 때문 
             while(set.size() > 0 && set.first()[0] <= heights[i]){
                 set.remove(set.first());
             }
