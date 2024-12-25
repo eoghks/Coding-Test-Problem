@@ -20,9 +20,12 @@ class Solution {
         if(root == null)
             return res;
         
+        //add Root
         q.add(root);
+        //Queue가 비엇다는건 leaf node까지 확인을 했다는 의미이다.
         while(!q.isEmpty()) {
             int max = q.peek().val;
+            //기존의 요소 수만큼만 반복하도록
             int size = q.size();
             for(int i=0; i<size; i++) {
                 TreeNode node = q.remove();
