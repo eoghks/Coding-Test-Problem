@@ -1,5 +1,4 @@
 class Solution {
-    //lethub test
     //Key는 sbuArray의 합이 최대인 3가지를 구한다는것은 3요소의 합도 최대라는 의미이다. 
     public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
         if (nums == null || nums.length < k * 3)
