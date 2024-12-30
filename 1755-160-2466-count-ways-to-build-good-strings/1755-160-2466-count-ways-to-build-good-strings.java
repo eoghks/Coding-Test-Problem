@@ -1,5 +1,5 @@
 class Solution {
-    //mod
+    //  Since the answer can be large, return it modulo 109 + 7.라고 문제에 나옴
     private int mod = (int) 1e9 + 7;
     public int countGoodStrings(int low, int high, int zero, int one) {
         //for문에서 zero를 먼저 확인하기 때문에
