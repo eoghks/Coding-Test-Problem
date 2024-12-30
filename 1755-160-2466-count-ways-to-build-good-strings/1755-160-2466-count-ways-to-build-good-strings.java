@@ -22,7 +22,6 @@ class Solution {
             if (i >= low)
                 res = (res + dp[i]) % mod;
         }
-        System.out.println(Arrays.toString(dp));
         return res;
     }
 }
