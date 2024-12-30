@@ -1,9 +1,12 @@
 class Solution {
+    //mod
     private int mod = (int) 1e9 + 7;
-
     public int countGoodStrings(int low, int high, int zero, int one) {
+        //for문에서 zero를 먼저 확인하기 때문에
         if (zero > one) {
-            return countGoodStrings(low, high, one, zero);
+            int temp = zero;
+            zero = one;
+            one = temp;
         }
 
         int[] dp = new int[high + 1];
