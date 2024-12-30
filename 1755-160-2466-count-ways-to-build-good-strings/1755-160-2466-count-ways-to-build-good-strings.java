@@ -9,6 +9,7 @@ class Solution {
             one = temp;
         }
 
+        //중복에 대한 가능성 X -> 0은 zero에 따라 1은 one에 따라서만 append 가능하기 때문
         int[] dp = new int[high + 1];
         int res = 0;
         dp[0] = 1;
