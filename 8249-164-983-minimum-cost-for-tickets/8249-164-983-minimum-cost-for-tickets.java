@@ -9,6 +9,7 @@ class Solution {
         dp[0] = 0;
 
         for(int i=1; i<=end; i++) {
+            //여행을 하지 않았기 때문에 이전 비용과 동일
             if(travel[i] == false) {
                 dp[i] = dp[i-1];
                 continue;
