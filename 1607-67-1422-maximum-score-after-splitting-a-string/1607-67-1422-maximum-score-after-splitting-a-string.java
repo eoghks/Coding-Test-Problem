@@ -10,11 +10,13 @@ class Solution {
         }
 
         int max = left+right;
-
+        int cur = max;
         for(int i=1; i<c.length-1; i++) {
+            //왼쪽으로 1을 옮길 경우 점수 -
             if(c[i] == '1') {
                 right--;
             } else {
+            //왼쪽으로 0을 옮길 경우 점수 +
                 left++;
             }
             max = Math.max(left+right , max);
