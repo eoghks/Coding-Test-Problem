@@ -17,6 +17,7 @@ class Solution {
         return res;
     }
 
+    //모음 확인
     private boolean check(char c) {
         if(c =='a' || c =='e' || c=='i' || c=='o' || c=='u')
             return true;
