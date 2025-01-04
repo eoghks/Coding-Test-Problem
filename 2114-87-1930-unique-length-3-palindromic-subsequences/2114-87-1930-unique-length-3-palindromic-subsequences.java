@@ -17,6 +17,7 @@ class Solution {
         
         int res = 0;
         for(int i=0; i<arr.length; i++) {
+            //0과1이 모두 나와야 똑같은 문자가 2번나온다는 의미 (앞뒤가 같은 알파벳이여야하므로)
             if(arr[i][0] != -1 && arr[i][1] != -1) {
                 //중간 부분을 확인하는 중복을 방지하기 위해 set활용
                 Set<Character> set = new HashSet<>();
