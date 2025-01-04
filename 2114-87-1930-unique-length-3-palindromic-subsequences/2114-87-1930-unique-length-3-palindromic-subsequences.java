@@ -18,6 +18,7 @@ class Solution {
         int res = 0;
         for(int i=0; i<arr.length; i++) {
             if(arr[i][0] != -1 && arr[i][1] != -1) {
+                //중간 부분을 확인하는 중복을 방지하기 위해 set활용
                 Set<Character> set = new HashSet<>();
                 for(int j=arr[i][0]+1; j<arr[i][1]; j++) {
                     set.add(c[j]);
