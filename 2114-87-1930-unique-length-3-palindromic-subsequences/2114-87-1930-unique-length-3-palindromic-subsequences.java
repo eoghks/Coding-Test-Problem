@@ -1,5 +1,7 @@
 class Solution {
+    //Palindromic -> 앞에서부터 읽든 뒤에서 부터 읽든 같은 문자열
     public int countPalindromicSubsequence(String s) {
+        //알파벳 수 만큼 해당 알파벳이 처음 나오는 부분과 마지막으로 나오는 부분을 기록
         int[][] arr = new int[26][2];
         char[] c = s.toCharArray();
         for(int[] a: arr) {
