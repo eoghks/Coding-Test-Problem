@@ -20,6 +20,7 @@ class Solution {
         StringBuilder res = new StringBuilder(s);
         for(int i=0; i<n; i++) {
             //실제로 움직일 거리 구하기 (-를 +로변환)
+            //a에서 z로 변하려고 -1이동할 때 반대로 생각하면 + 25만큼 움직엿다고도 생각 가능
             int sh = (shift[i] % 26 + 26) % 26;
             res.setCharAt(i, (char) ('a' + (s.charAt(i) - 'a' + sh) % 26));
         }
