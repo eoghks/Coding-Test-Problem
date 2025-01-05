@@ -3,6 +3,7 @@ class Solution {
         int n = s.length();
         int[] shift = new int[n];
 
+        //이동하는 시작 및 끝 index 구하기
         for(int[] sh: shifts) {
             shift[sh[0]] += (sh[2] == 1? 1 : -1);
             if (sh[1] + 1 < n) 
