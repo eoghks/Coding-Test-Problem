@@ -1,5 +1,6 @@
 class Solution {
     //words2의 각 문자열의 문자가 words1의 문자열의 문자에 포함되는지를 확인하는 문제
+    //subString이 아니라 subSet이라는 점을 잘 기억해야한다.
     public List<String> wordSubsets(String[] words1, String[] words2) {
         List<String> res = new ArrayList<>();
         int[] maxFreq = new int[26];
