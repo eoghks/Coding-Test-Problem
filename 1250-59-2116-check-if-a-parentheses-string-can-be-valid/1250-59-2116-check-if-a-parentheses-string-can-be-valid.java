@@ -22,6 +22,8 @@ class Solution {
             }
         }
 
+        //open.peek() < unlocked.peek()
+        //열린 괄호보다 뒤에 닫을 괄호가 필요하다. 따라서 unlokced의 index가 더 커야 가능하다.
         while(!open.empty() && !unlocked.empty() && open.peek() < unlocked.peek()) {
             open.pop();
             unlocked.pop();
