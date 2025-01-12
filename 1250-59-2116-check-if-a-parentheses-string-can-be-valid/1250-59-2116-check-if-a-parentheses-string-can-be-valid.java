@@ -16,6 +16,7 @@ class Solution {
                 } else if (!unlocked.empty()) {
                     unlocked.pop();
                 } else {
+                    //열린 괄호가 없고 바꿀수 있는 부분이 없다는 것은 valid하지 않다는 의미
                     return false;
                 }
             }
