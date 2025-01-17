@@ -1,6 +1,6 @@
 class Solution {
     public boolean doesValidArrayExist(int[] derived) {
-        /*
+        /* 방법 1
         int n=derived.length;
         int[] org=new int[n];
         
@@ -17,6 +17,12 @@ class Solution {
         }
 
         return true;
+        */
+        /* 방법 2
+        derived[0] ^ derived[1] ^ ... ^ derived[3] = (org[0]^org[1]) ^ (org[1]^org[2]) ^ ... ^ (org[3]^org[0])
+        (org[0]^org[1]) ^ (org[1]^org[2]) ^ ... ^ (org[3]^org[0]) = (org[0]^org[0]) ^ (org[1]^org[1]) ^ ... ^ (org[3]^org[3])
+        (org[0]^org[0]) ^ (org[1]^org[1]) ^ ... ^ (org[3]^org[3]) = 0
+        derived[0] ^ derived[1] ^ ... ^ derived[3] = 0
         */
         int xor = 0;
         for(int i=0; i<derived.length; i++) {
