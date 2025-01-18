@@ -21,6 +21,7 @@ class Solution {
 
             //Visited adjacent cells
             for(int i=0; i<4; i++){
+                //이동할 방향과 추가 코스트 구하기
                 int dx=x+dir[i][0];
                 int dy=y+dir[i][1];
                 int cost=(grid[x][y]!=(i+1))?1:0;
