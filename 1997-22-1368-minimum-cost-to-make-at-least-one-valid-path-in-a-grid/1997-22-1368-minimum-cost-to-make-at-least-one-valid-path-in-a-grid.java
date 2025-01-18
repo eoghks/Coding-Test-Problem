@@ -33,6 +33,7 @@ class Solution {
                 if( dx>=0 && dx<m && dy>=0 && dy<n && minCost[x][y]+cost<minCost[dx][dy]){
                     minCost[dx][dy]=minCost[x][y]+cost;
 
+                    //화살표 변경 시 뒤에 넣기
                     if(cost==1){
                         dque.offerLast(new int[]{dx,dy});
                     }else{
