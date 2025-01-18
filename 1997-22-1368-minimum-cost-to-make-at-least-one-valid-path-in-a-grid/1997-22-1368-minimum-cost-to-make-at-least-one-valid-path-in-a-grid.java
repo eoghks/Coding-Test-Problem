@@ -6,6 +6,7 @@ class Solution {
         int n = grid[0].length;
         int[][] minCost = new int[m][n];
 
+        //init
         for(int i=0; i<m; i++) {
             Arrays.fill(minCost[i], Integer.MAX_VALUE);
         }
