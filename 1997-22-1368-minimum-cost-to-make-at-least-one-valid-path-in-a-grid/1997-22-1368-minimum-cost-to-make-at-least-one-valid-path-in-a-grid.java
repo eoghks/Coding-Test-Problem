@@ -13,6 +13,7 @@ class Solution {
         dque.offerFirst(new int[]{0,0});
         minCost[0][0]=0;
 
+        //logic
         while(!dque.isEmpty()){
             int[] arr=dque.pollFirst();
             int x=arr[0];
@@ -24,6 +25,10 @@ class Solution {
                 int dy=y+dir[i][1];
                 int cost=(grid[x][y]!=(i+1))?1:0;
 
+                //x좌표가 0이상  m보다 작음
+                //y좌표가 0이상 n보다 작음
+                //현재까지의 cost와 추가 cost가 이동하는 방향의 cost보다 적어야함
+                //더 크다면 의미 없음
                 if( dx>=0 && dx<m && dy>=0 && dy<n && minCost[x][y]+cost<minCost[dx][dy]){
                     minCost[dx][dy]=minCost[x][y]+cost;
 
