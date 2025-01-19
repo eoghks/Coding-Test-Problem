@@ -29,10 +29,11 @@ class Solution {
             int r = cur[1];
             int c = cur[2];
 
+            //상하좌우 체크
             for (int i = 0; i < 4; i++) {
                 int nr = r + dir[i][0];
                 int nc = c + dir[i][1];
-
+                //방문하지 않은 경우에만 확인
                 if (nr >= 0 && nr < m && nc >= 0 && nc < n && !visited[nr][nc]) {
                     res += Math.max(0, h - heightMap[nr][nc]);
                     pq.offer(new int[]{Math.max(h, heightMap[nr][nc]), nr, nc});
