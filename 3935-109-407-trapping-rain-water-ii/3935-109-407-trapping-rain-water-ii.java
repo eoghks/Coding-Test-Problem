@@ -7,6 +7,7 @@ class Solution {
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         boolean [][] visited = new boolean[m][n];
 
+        //왼쪽 오른쪽 끝 
         for (int i = 0; i < m; i++) {
             visited[i][0] = true;
             visited[i][n - 1] = true;
@@ -14,6 +15,7 @@ class Solution {
             pq.offer(new int[]{heightMap[i][n - 1], i, n - 1});
         }
 
+        //위 아래 끝 
         for (int i = 0; i < n; i++) {
             visited[0][i] = true;
             visited[m - 1][i] = true;
