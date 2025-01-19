@@ -4,7 +4,7 @@ class Solution {
         int res = 0;
         int m = heightMap.length;
         int n = heightMap[0].length;
-        //오름차순 -> 낮은 높이부터 출력
+        //오름차순 -> 낮은 높이부터 출력(높은 높이 부터 출력하면 물을 가두지 못하고 넘치기 때문)
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         boolean [][] visited = new boolean[m][n];
 
