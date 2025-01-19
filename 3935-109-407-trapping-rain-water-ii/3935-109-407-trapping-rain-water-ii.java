@@ -1,4 +1,5 @@
 class Solution {
+    //BFS + Priority Queue(높이)
     int[][] dir = {{-1,0}, {0,-1}, {1, 0}, {0,1}};
     public int trapRainWater(int[][] heightMap) {
         int res = 0;
