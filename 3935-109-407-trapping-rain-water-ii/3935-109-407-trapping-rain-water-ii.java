@@ -4,6 +4,7 @@ class Solution {
         int res = 0;
         int m = heightMap.length;
         int n = heightMap[0].length;
+        //오름차순 -> 낮은 높이부터 출력
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         boolean [][] visited = new boolean[m][n];
 
