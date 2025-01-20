@@ -17,6 +17,7 @@ class Solution {
             }
         }
 
+        //return 값이 index임을 기억
         for (int i = 0; i < arr.length; i++) {
             int[] pos = map.get(arr[i]);
             if (--row[pos[0]] == 0 || --col[pos[1]] == 0) {
