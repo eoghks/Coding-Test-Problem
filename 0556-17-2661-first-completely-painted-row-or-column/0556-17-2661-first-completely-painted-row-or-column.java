@@ -6,10 +6,11 @@ class Solution {
         int[] row = new int[m];
         int[] col = new int[n];
         Map<Integer, int[]> map = new HashMap<>();
-
+        //row별 count초기화
         Arrays.fill(row, n);
         Arrays.fill(col, m);
 
+        //map init
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 map.put(mat[i][j], new int[]{i, j});
