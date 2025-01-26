@@ -1,4 +1,5 @@
 class Solution {
+    //각 단어를 sort해서 비교한다.
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String str : strs) {
