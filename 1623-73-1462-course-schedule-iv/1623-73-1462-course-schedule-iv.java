@@ -7,6 +7,7 @@ class Solution {
             relation[p[0]][p[1]] = true;
         }
 
+        //j가 k의 선수 지식인 경우
         for(int i=0; i<numCourses; i++) {
             for(int j=0; j<numCourses; j++) {
                  for(int k = 0; k<numCourses; k++) {
