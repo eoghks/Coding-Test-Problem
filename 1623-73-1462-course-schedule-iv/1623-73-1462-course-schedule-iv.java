@@ -2,6 +2,7 @@ class Solution {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
         List<Boolean> res = new ArrayList<>();
         boolean relation[][] = new boolean[numCourses][numCourses];
+        //관계 정리
         for(int[] p: prerequisites) {
             relation[p[0]][p[1]] = true;
         }
