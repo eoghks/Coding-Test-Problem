@@ -7,6 +7,7 @@ class Solution {
             relation[p[0]][p[1]] = true;
         }
 
+        //플로이드 워셜
         //j가 k의 선수 지식인 경우
         //j가 i의 선수 지식이고 i가 k의 선수 지식인 경우
         for(int i=0; i<numCourses; i++) {
