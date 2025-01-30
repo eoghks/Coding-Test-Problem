@@ -37,6 +37,7 @@ class Solution {
         return res;
     }
 
+    //dfs 코드
     private void dfs(int component, int node, Map<Integer, List<Integer>> graph, Map<Integer, List<Integer>> components) {
         components.get(component).add(node);
         for (int neighbor : graph.get(node)) {
@@ -47,6 +48,7 @@ class Solution {
         }
     }
 
+    //bfs코드
      private int bfs(int node, Map<Integer, List<Integer>> graph) {
         int res = 0;
         boolean[] visited = new boolean[graph.size()+1];
