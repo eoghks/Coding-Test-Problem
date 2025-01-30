@@ -5,6 +5,8 @@ class Solution {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         Map<Integer, List<Integer>> components = new HashMap<>();
         vis = new boolean[n+1];
+        
+        //graph 만들기
         for(int node = 1; node<=n; node++) {
             graph.put(node, new ArrayList<>());
         }
@@ -14,6 +16,7 @@ class Solution {
             graph.get(e[1]).add(e[0]);
         }
 
+        //dfs를 활용하여 spanning tree를 만듬
         int component = 1;
         for(int node = 1; node<=n; node++) {
             if(vis[node])
@@ -23,6 +26,7 @@ class Solution {
             dfs(component++, node, graph, components);   
         }
 
+        //각 spanning tree 별로 group을 나누기
         int[] componentsMaxTravel = new int[component];
         for(int comp = 1; comp < component; comp++) {
             for (int compNode : components.get(comp)) {
@@ -64,7 +68,6 @@ class Solution {
 
             for (int i = 0; i < n; i++) {
                 int curNode = queue.poll();
-
                 for(int neighbor : graph.get(curNode)) {
                     if(curLevel.contains(neighbor)) 
                         return -1;
