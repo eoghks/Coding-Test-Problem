@@ -70,8 +70,10 @@ class Solution {
             for (int i = 0; i < n; i++) {
                 int curNode = queue.poll();
                 for(int neighbor : graph.get(curNode)) {
+                    //현재 Level에 포함된 Node가 다음 레벨에 또나오면 무한 루프이므로 이경우 그룹을 나눌수 없음
                     if(curLevel.contains(neighbor)) 
                         return -1;
+                    //이미 방문한 경우 방문 X
                     if(visited[neighbor]) 
                         continue;
                     nextLevel.add(neighbor);
