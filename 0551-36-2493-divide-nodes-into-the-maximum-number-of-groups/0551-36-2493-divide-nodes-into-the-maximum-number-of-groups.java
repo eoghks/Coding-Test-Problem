@@ -29,6 +29,7 @@ class Solution {
         //각 spanning tree 별로 group을 나누기
         int[] componentsMaxTravel = new int[component];
         for(int comp = 1; comp < component; comp++) {
+            //각 spanning tree의 node별로 그룹을 나눌때 최대 그룹수를 구하기
             for (int compNode : components.get(comp)) {
                 int compRes = bfs(compNode, graph);
                 if(compRes == -1) 
