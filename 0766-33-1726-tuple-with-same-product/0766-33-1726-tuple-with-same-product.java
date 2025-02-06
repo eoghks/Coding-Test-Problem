@@ -12,6 +12,8 @@ class Solution {
         for(int cnt: map.values()) {
             //cnt>1이상 이여야 짝이 존재
             if(cnt>1) {
+                //앞에 짝 2개 뒤에 짝 2개 해서 4개
+                //앞에 올수 있는 경우의수가 cnt개라면 뒤에는 1을 뺀 cnt-1개
                 res += cnt * (cnt-1) * 4;
             }
         }
