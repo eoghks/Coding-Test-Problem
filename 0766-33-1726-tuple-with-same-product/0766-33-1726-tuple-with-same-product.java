@@ -10,6 +10,7 @@ class Solution {
             }
         }
         for(int cnt: map.values()) {
+            //cnt>1이상 이여야 짝이 존재
             if(cnt>1) {
                 res += cnt * (cnt-1) * 4;
             }
