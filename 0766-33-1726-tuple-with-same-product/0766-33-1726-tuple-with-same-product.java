@@ -3,6 +3,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         int n= nums.length;
         int res = 0;
+        //모든 경우의 수 집어넣기
         for(int i =0; i<n; i++) {
             for(int j=i+1; j<n; j++) {
                 int temp = nums[i]*nums[j];
