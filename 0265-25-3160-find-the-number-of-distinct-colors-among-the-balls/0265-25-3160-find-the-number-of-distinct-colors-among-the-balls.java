@@ -11,6 +11,7 @@ class Solution {
             //이미 ball의 색이 칠해진 경우
             if(ball.containsKey(pos)) {
                 int cnt = color.get(ball.get(pos)) -1;
+                //색이 변경되어 색이 없는 경우 
                 if(cnt == 0) {
                     color.remove(ball.get(pos));
                     colorCnt--;
