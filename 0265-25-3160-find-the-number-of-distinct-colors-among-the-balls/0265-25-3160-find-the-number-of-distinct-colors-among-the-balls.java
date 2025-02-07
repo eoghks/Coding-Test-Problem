@@ -22,6 +22,7 @@ class Solution {
             ball.put(pos, c);
             int cnt = color.getOrDefault(c, 0) + 1;
             color.put(c, cnt);
+            //새로운 색이 추가된 경우
             if(cnt == 1)
                 colorCnt++;
             res[i] = colorCnt;
