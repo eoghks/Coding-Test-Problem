@@ -1,4 +1,6 @@
 class Solution {
+    //ball의 색을 기억
+    //color의 수를 기억
     public int[] queryResults(int limit, int[][] queries) {
         Map<Integer, Integer> ball = new HashMap<>();
         Map<Integer, Integer> color = new HashMap<>();
