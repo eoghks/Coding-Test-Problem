@@ -8,6 +8,7 @@ class Solution {
         for (int i = 0; i < n; i++){
             int pos = queries[i][0];
             int c = queries[i][1];
+            //이미 ball의 색이 칠해진 경우
             if(ball.containsKey(pos)) {
                 int cnt = color.get(ball.get(pos)) -1;
                 if(cnt == 0) {
