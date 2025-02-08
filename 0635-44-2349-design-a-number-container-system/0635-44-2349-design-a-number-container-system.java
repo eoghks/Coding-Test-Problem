@@ -14,6 +14,7 @@ class NumberContainers {
             //idx에 있던 값과 현재 값이 같은 경우
             if (prev == number) 
                 return;
+            //idx해서 이전 값을 삭제(PQ를 동기화)
             num.get(prev).remove(index);
         }
         idx.put(index, number);
