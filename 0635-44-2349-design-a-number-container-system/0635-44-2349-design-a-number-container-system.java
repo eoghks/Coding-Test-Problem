@@ -8,8 +8,10 @@ class NumberContainers {
     }
     
     public void change(int index, int number) {
+        //idx에 이미 값이 존재하여교체해야하는 경우
         if(idx.containsKey(index)) {
             int prev = idx.get(index);
+            //idx에 있던 값과 현재 값이 같은 경우
             if (prev == number) 
                 return;
             num.get(prev).remove(index);
