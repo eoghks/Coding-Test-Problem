@@ -1,5 +1,7 @@
 class NumberContainers {
+    //idx의 number를 저장
     Map<Integer, Integer> idx = new HashMap<>();
+    //number를 가진 idx를 저장하는데 가장 낮은 idx를 구하기 위해 Priority Queue를 이용
     Map<Integer, PriorityQueue<Integer>> num = new HashMap<>();
     public NumberContainers() {
         
