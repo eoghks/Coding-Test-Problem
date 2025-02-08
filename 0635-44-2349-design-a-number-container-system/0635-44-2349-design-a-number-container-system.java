@@ -19,6 +19,7 @@ class NumberContainers {
         }
         idx.put(index, number);
 
+        //number가 처음 생기는 경우 PQ 생성
         if(!num.containsKey(number)) {
             num.put(number, new PriorityQueue<>());
         }
