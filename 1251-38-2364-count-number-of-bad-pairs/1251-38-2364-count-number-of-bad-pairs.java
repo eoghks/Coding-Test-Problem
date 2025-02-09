@@ -1,4 +1,6 @@
 class Solution {
+    //j - i = nums[j] - nums[i]
+    //nums[i] -i = nums[j] -j
     public long countBadPairs(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         long cnt = 0;
