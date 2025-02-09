@@ -5,6 +5,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         long cnt = 0;
         int n = nums.length;
+        //0에서부터 1씩 증가하므로 모든 쌍에 대해서 체크 가능
         for(int i=0; i< n; i++) {
             int key = nums[i] - i;
             cnt += map.getOrDefault(key, 0);
