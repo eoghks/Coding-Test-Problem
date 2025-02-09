@@ -6,6 +6,7 @@ class Solution {
         long cnt = 0;
         int n = nums.length;
         //0에서부터 1씩 증가하므로 모든 쌍에 대해서 체크 가능
+        //n-1일 경우 0~n-2까지의 값과 비교
         for(int i=0; i< n; i++) {
             int key = nums[i] - i;
             cnt += map.getOrDefault(key, 0);
