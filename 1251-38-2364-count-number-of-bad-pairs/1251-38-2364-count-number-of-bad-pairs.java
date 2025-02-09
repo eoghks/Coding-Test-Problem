@@ -11,6 +11,7 @@ class Solution {
             map.put(key, map.getOrDefault(key, 0)+1);
         }
 
+        //총 합에서 good을 제외
         return (long) n * (n - 1) / 2 - cnt;
     }
 }
