@@ -1,4 +1,5 @@
 class Solution {
+    //solution 1 StringBuilder + subString
     public String removeOccurrences(String s, String part) {
         StringBuilder res = new StringBuilder();
         int n = part.length();
