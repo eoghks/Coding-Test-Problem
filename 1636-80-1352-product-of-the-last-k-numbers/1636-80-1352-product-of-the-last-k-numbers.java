@@ -17,6 +17,8 @@ class ProductOfNumbers {
     }
     
     public int getProduct(int k) {
+        //size()-1인 이유는 기본값 1이 존재하기 때문
+        //그 이하의 값은 0이 포함되기 때문에 항상 0
         if(k>product.size()-1) {
             return 0;
         }
