@@ -22,6 +22,7 @@ class ProductOfNumbers {
         if(k>product.size()-1) {
             return 0;
         }
+        //(num[i] * ... * num[i])/ num[i-1-k] * ... * num[0] = nums [i] * ... * nums[i-k];
         return product.get(product.size()-1)/product.get(product.size()-1-k);
     }
 }
