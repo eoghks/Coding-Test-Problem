@@ -5,6 +5,7 @@ class ProductOfNumbers {
     }
     
     public void add(int num) {
+        //0이 등장하면 현재 크기까지는 모두 0이되기 때문에 의미가 없다.
         if(num == 0) {
             product = new ArrayList<>();
             product.add(1);
