@@ -1,5 +1,7 @@
 class ProductOfNumbers {
     List<Integer> product = new ArrayList<>();
+    //product기 때문에 기본 값을 1로 설정
+    //prdouct(i) = product(i-1) * nums[i];
     public ProductOfNumbers() {
         product.add(1);
     }
