@@ -2,6 +2,7 @@ class Solution {
     public String smallestNumber(String pattern) {
         int n = pattern.length();
         int top =0;
+        //각 숫자를 저장하는 배열
         int[]s = new int[10];
         s[0] = 1;
         StringBuilder sb = new StringBuilder();
