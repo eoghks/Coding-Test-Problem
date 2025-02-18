@@ -3,7 +3,7 @@ class Solution {
         int n = pattern.length();
         int top =0;
         //각 숫자를 저장하는 배열
-        int[]s = new int[10];
+        int[]s = new int[9];
         s[0] = 1;
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<n; i++) {
