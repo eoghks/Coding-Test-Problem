@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    //idx는 
     private String s;
     private int idx = 0;
     private int level = 0;
@@ -29,6 +30,7 @@ class Solution {
         //DFS 방식
         while (this.idx < this.s.length() && lvl == level) {
             int num = 0;
+            //일의자리 숫자보다 큰 경우를 대비하여 while문
             while (this.idx < this.s.length() && Character.isDigit(this.s.charAt(this.idx))) {
                 num = num * 10 + (this.s.charAt(this.idx++) - '0');
             }
