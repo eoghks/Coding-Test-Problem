@@ -35,6 +35,7 @@ class Solution {
                 num = num * 10 + (this.s.charAt(this.idx++) - '0');
             }
             TreeNode node = new TreeNode(num);
+            //자식이 하나인 경우 왼쪽에 존재
             if (parent.left == null)
                 parent.left = node;
             else
