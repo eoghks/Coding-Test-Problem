@@ -28,6 +28,7 @@ class Solution {
 
     private void helper(TreeNode parent, int lvl) {
         //DFS 방식
+        //lvl은 현재 깊이, level은 현재 숫자의 깊이(-의 갯수)
         while (this.idx < this.s.length() && lvl == level) {
             int num = 0;
             //일의자리 숫자보다 큰 경우를 대비하여 while문
@@ -42,6 +43,7 @@ class Solution {
                 parent.right = node;
             
             this.level = 0;
+            //다음 depth 판단
             while (this.idx < this.s.length() && this.s.charAt(this.idx) == '-') {
                 this.level++;
                 this.idx++;
