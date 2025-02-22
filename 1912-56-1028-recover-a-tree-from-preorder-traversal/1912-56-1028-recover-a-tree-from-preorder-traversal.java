@@ -26,6 +26,7 @@ class Solution {
     }
 
     private void helper(TreeNode parent, int lvl) {
+        //DFS 방식
         while (this.idx < this.s.length() && lvl == level) {
             int num = 0;
             while (this.idx < this.s.length() && Character.isDigit(this.s.charAt(this.idx))) {
