@@ -31,6 +31,7 @@ class Solution {
         if(l==h)
             return root;
         int i = l;
+        //right를 찾는 코드
         for(; i<=h; i++) {
             if(postorder[i] == preorder[index])
                 break;
