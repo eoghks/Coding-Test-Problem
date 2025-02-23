@@ -20,6 +20,7 @@ class Solution {
     }
     //preorder root -> left -> right
     //postorder는 left -> right -> root
+    //따라서 left를 찾으면 postorder에서 right를 찾을 수 있다.
     private TreeNode construct(int[] preorder, int[] postorder, int l, int h) {
         if(index >= preorder.length || l > h) {
             return null;
