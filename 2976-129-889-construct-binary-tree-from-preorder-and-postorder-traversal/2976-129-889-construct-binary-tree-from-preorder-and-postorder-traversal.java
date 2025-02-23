@@ -18,8 +18,8 @@ class Solution {
     public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
         return construct(preorder, postorder, 0, postorder.length-1);
     }
-    //preorder의 첫번째 원소는 항상 root
-    //preodrer의 두번째 원소는 left
+    //preorder root -> left -> right
+    //postorder는 left -> right -> root
     private TreeNode construct(int[] preorder, int[] postorder, int l, int h) {
         if(index >= preorder.length || l > h) {
             return null;
