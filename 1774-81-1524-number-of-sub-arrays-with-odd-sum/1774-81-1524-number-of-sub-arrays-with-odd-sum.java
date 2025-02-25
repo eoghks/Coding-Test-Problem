@@ -2,6 +2,7 @@ class Solution {
     public int numOfSubarrays(int[] arr) {
         int mod = 1000000007;
         int odd = 0;
+        //0 => even
         int even = 1;
         int result = 0;
         int sum = 0;
