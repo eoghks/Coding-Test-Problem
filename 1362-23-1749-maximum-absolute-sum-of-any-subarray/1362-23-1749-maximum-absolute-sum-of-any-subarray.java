@@ -13,7 +13,7 @@ class Solution {
             if(cur < 0) {
                 max = Math.max(max, Math.abs(pmax-sum));
                 nmin= Math.min(nmin, sum);
-            } else {
+            } else {//nmin - sum == (nums[0] + ... + nums[i]) - (nums[0] + ... nums[j]) = nums[i]+...nums[j]
                 max = Math.max(max,Math.abs(nmin-sum));
                 pmax = Math.max(pmax, sum);
             }
