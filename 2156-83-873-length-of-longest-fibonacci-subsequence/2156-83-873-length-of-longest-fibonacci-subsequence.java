@@ -1,4 +1,5 @@
 class Solution {
+    //map에 원소를 넣고 확인하면서 진행
     public int lenLongestFibSubseq(int[] arr) {
         int n = arr.length;
         Map<Integer, Integer> map = new HashMap<>();
