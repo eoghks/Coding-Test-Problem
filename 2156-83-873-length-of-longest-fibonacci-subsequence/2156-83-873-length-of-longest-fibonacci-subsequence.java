@@ -8,6 +8,7 @@ class Solution {
         }
 
         int max = 0;
+        //이전값과 현재 값을 기억하여 map을 확인
         for(int i=0; i<n && max<n-i; i++) {
             for(int j=i+1; j<n; j++) {
                 int cur = arr[j];
