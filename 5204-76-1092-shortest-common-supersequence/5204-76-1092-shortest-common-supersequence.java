@@ -32,11 +32,13 @@ class Solution {
             }
         }
 
+        //str1이 남은 경우
          while (i > 0) {
             sb.append(str1.charAt(i - 1));
             i--;
         }
         
+        //str2가 남은 경우
         while (j > 0) {
             sb.append(str2.charAt(j - 1));
             j--;
