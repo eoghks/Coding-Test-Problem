@@ -1,4 +1,5 @@
 class Solution {
+    //dp[i][j] => 두 문자열에 동일한 순서로 나타나는 문자의 수
     public String shortestCommonSupersequence(String str1, String str2) {
         int m = str1.length();
         int n = str2.length();
