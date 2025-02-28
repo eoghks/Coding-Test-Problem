@@ -1,6 +1,5 @@
 class Solution {
     //dp[i][j] => str1의 0~i-1번째까지 문자열과 str2의 0~j-1까지의 두 문자열에서 동일한 순서로 나타나는 문자의 수
-    //str1의 0~i-1번째까지 문자열과 str2를 비교
     public String shortestCommonSupersequence(String str1, String str2) {
         int m = str1.length();
         int n = str2.length();
