@@ -26,6 +26,8 @@ class Solution {
                 i--;
                 j--;
             } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                //str2를 삽입할지 str1을 삽입할지 정함
+                //str1을 삽입하면 str1의 0~i-2와 str2의 0~j까지 동일한 문자가 얼마나 있는지가 중요
                 sb.append(str1.charAt(i - 1));
                 i--;
             } else {
