@@ -22,6 +22,7 @@ class Solution {
         }
 
         int[] result = {-1, -1};
+        //두 소수의 차이를 구할 수 없는 경우
         if (temp.size() < 2) {
             return result;
         }
