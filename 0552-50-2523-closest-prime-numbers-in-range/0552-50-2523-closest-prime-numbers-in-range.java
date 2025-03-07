@@ -4,6 +4,7 @@ class Solution {
         Arrays.fill(primes, true);
         primes[0] = primes[1] = false;
 
+        //소수 구하기
         for (int i = 2; i * i <= right; i++) {
             if (primes[i]) {
                 for (int j = i * i; j <= right; j += i) {
