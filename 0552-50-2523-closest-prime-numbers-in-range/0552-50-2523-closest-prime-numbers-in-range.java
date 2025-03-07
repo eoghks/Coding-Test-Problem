@@ -13,6 +13,7 @@ class Solution {
             }
         }
 
+        //범위에 맞는 소수 범위 구하기
         List<Integer> temp = new ArrayList<>();
         for (int i = left; i <= right; i++) {
             if (primes[i]) {
