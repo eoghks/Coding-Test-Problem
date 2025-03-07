@@ -28,6 +28,7 @@ class Solution {
         }
 
         int min  = Integer.MAX_VALUE;
+        //최소 차이를 가진 두 소수 구하기
          for (int i = 1; i < temp.size(); i++) {
             int cur = temp.get(i) - temp.get(i - 1);
             if (cur < min) {
