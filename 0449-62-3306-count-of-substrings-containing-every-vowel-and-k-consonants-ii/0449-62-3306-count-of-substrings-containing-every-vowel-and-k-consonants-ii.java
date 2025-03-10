@@ -1,4 +1,5 @@
 class Solution {
+    //길이가 k개이상에서 k+1 이상을 빼면 정확히 k개인 substring
     public long countOfSubstrings(String word, int k) {
         return solution(word, k) - solution(word, k + 1);
     }
