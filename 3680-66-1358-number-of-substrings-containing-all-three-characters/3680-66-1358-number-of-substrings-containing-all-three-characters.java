@@ -5,6 +5,8 @@ class Solution {
         int left = 0;
         int[] abc = new int[3];
 
+        //substring의 시작 문자열의 index가 0~n-1까지
+        //subString은 반드시 i번째 문자열이 포함된 경우로만 구하기
         for(int right =0; right < n; right++) {
             abc[s.charAt(right) - 'a']++;
             //abc의 수를 확인
