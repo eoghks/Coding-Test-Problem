@@ -7,6 +7,9 @@ class Solution {
 
         for(int right =0; right < n; right++) {
             abc[s.charAt(right) - 'a']++;
+            //길이가 n인 문자열이 존재할 때 시작 index 가 i인 subString의 수(i는 반드시 포함)
+            //i, i~i+1, i~i+2, i~..n-1
+            //이므로 n-i가 된다.
             while(abc[0] > 0 && abc[1] > 0 && abc[2] > 0) {
                 res  += n-right;
                 abc[s.charAt(left) - 'a']--;
