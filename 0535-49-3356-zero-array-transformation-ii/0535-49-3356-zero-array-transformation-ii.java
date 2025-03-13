@@ -1,5 +1,6 @@
 class Solution {
     int n;
+    //최종 정답은 queries[0] ~ queries[k]까지 적용했을때 모든 배열이 0되는 k
     public int minZeroArray(int[] nums, int[][] queries) {
         n = nums.length;
 
@@ -15,6 +16,7 @@ class Solution {
 
         while(left<right) {
             int mid = left + (right-left)/2;
+            //left ~ mid까지 가능하다는 이야기는 
             if(canZero(mid, nums, queries))
                 right = mid;
             else
