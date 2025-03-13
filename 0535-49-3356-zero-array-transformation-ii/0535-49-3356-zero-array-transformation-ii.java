@@ -26,6 +26,8 @@ class Solution {
     private boolean canZero(int k, int[] nums, int[][] queries) {
         int[] diff = new int[n+1];
         //가능한 총 감소량 구하기
+        //dift[left] +=val => left부터val를 줄일수 있다.
+        //dift[right] -=val => 이제 줄이는 값이 끝낫다. 이전에 줄일수 있다고 한걸 제거
         for(int i=0; i<k; i++) {
             int left = queries[i][0];
             int right = queries[i][1];
