@@ -25,6 +25,7 @@ class Solution {
 
     private boolean canZero(int k, int[] nums, int[][] queries) {
         int[] diff = new int[n+1];
+        //가능한 총 감소량 구하기
         for(int i=0; i<k; i++) {
             int left = queries[i][0];
             int right = queries[i][1];
