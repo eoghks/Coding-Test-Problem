@@ -1,4 +1,5 @@
 class Solution {
+    //min과 max의 중간값을 가진 candy를 얼마나 나눠줄수 있는지 확인한다.
     public int maximumCandies(int[] candies, long k) {
         int res = 0;
         int min =1;
