@@ -1,4 +1,5 @@
 class Solution {
+    //하위 배열의 두요소의 AND 연산은 0 => 같은 위치에 1Bit를 가지면 안된다.
     public int longestNiceSubarray(int[] nums) {
         int n = nums.length;
         int max = 1;
