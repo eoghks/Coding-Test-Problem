@@ -8,6 +8,7 @@ class Solution {
 
         for(int right = 0; right < n; right++) {
             while((bit & nums[right]) != 0) {
+                //nums[left]의 Bit를 제거
                 bit ^= nums[left];
                 left++;
             }
