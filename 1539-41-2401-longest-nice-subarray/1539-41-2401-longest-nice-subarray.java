@@ -12,6 +12,7 @@ class Solution {
                 left++;
             }
 
+            //현재 요소를 포함한 Bit를 구하기 위해
             bit|=nums[right];
             max = Math.max(max, right-left+1);
         }
