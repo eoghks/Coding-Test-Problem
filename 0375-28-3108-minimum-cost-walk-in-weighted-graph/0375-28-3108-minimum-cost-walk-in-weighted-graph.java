@@ -8,6 +8,7 @@ class Solution {
         
         int[] minPath = new int[n];
         Arrays.fill(minPath, -1);
+        //target을 기준으로 움직임
         for (int[] edge : edges) {
             int s = edge[0];
             int t = edge[1];
