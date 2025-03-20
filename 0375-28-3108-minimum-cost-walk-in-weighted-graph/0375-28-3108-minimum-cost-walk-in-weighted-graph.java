@@ -16,6 +16,7 @@ class Solution {
 
             minPath[tRoot] &= w;
 
+            //그래프가 연결된 경우 가중치 설정 및 루트 통일
             if (sRoot != tRoot) {
                 minPath[tRoot] &= minPath[sRoot];
                 parent[sRoot] = tRoot;
