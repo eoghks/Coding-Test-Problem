@@ -1,5 +1,6 @@
 class Solution {
     public int[] minimumCost(int n, int[][] edges, int[][] query) {
+        //그래프를 구분하기 위해 
         int[] parent = new int[n];
         for (int i = 0; i < n; i++) {
             parent[i] = i;
