@@ -28,9 +28,8 @@ class Solution {
         for (int i = 0; i < query.length; i++) {
             int s = query[i][0];
             int t = query[i][1];
-            if (s == t) {
-                res[i] = 0;
-            } else if (findRoot(parent, s) != findRoot(parent, t)) {
+            //그래프가 연결되지 않은 경우
+            if (findRoot(parent, s) != findRoot(parent, t)) {
                 res[i] = -1;
             } else {
                 res[i] = minPath[findRoot(parent, s)];
