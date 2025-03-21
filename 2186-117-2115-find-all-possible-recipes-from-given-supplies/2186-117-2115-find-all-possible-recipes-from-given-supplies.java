@@ -18,14 +18,17 @@ class Solution {
 
     private boolean canMake(String recipe) {
         //recpie가 서로 원하는 경우를 방지하기 위해
+        //만들수 있는 경우 => 1, 만드는 도중 => 0, 못만드는 경우 => -1
          if (visited.containsKey(recipe)) {
             return visited.get(recipe) == 1;
         }
 
+        //기본으로주는 재료에 포함되는지
         if (availableSupplies.contains(recipe)) {
             return true;
         }
 
+        //recpies에 포함되는지
         if (ingredientsMap.containsKey(recipe) == false) {
             return false;
         }
