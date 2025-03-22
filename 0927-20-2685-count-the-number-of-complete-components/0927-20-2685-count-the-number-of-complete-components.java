@@ -1,7 +1,8 @@
 class Solution {
     int[] parent;
     int[] rank;
-
+    //핵심 키워드
+    //무방향 그래프가 n개의 vertex를 가질때, edge의 수는 n*n-1/2이다.
     public int countCompleteComponents(int n, int[][] edges) {
         parent = new int[n];
         rank = new int[n];
