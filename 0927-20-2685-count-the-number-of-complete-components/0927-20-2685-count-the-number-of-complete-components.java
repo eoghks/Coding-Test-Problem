@@ -3,6 +3,7 @@ class Solution {
     int[] rank;
     //핵심 키워드
     //무방향 그래프가 n개의 vertex를 가질때, edge의 수는 n*n-1/2이다.
+    //따라서 전체 그래프를 구하고, 각 그래프의 edge수를 예상 edge수와 비교한다.
     public int countCompleteComponents(int n, int[][] edges) {
         parent = new int[n];
         rank = new int[n];
@@ -39,7 +40,7 @@ class Solution {
         }
         return cnt;
     }
-
+    //부모찾기 및 합치기
     private int find(int v) {
         if (parent[v] != v) {
             parent[v] = find(parent[v]);
