@@ -39,26 +39,26 @@ class Solution {
         return cnt;
     }
 
-    private int find(int x) {
-        if (parent[x] != x) {
-            parent[x] = find(parent[x]);
+    private int find(int v) {
+        if (parent[v] != v) {
+            parent[v] = find(parent[v]);
         }
-        return parent[x];
+        return parent[v];
     }
 
-    private void union(int x, int y) {
-        int rootX = find(x);
-        int rootY = find(y);
-        if (rootX == rootY) 
+    private void union(int v1, int v2) {
+        int root1 = find(v1);
+        int root2 = find(v2);
+        if (root1 == root2) 
             return;
 
-        if (rank[rootX] < rank[rootY]) {
-            parent[rootX] = rootY;
-        } else if (rank[rootX] > rank[rootY]) {
-            parent[rootY] = rootX;
+        if (rank[root1] < rank[root2]) {
+            parent[root1] = root2;
+        } else if (rank[root1] > rank[root2]) {
+            parent[root2] = root1;
         } else {
-            parent[rootY] = rootX;
-            rank[rootX]++;
+            parent[root2] = root1;
+            rank[root1]++;
         }
     }
 }
