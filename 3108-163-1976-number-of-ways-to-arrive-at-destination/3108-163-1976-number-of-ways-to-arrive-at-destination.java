@@ -1,4 +1,5 @@
 class Solution {
+    //다익스트라 + DP
     public int countPaths(int n, int[][] roads) {
         List<List<int[]>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {
