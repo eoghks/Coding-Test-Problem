@@ -1,4 +1,5 @@
 class Solution {
+    //
     public int[] maxPoints(int[][] grid, int[] queries) {
         int rows = grid.length;
         int cols = grid[0].length;
