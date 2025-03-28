@@ -7,6 +7,7 @@ class Solution {
         int[] res = new int[n];
         int[][] visited = new int[rows][cols];
         
+        //queries의 value 낮은 값부터 해서 하나씩 구하기(반복을 하지 않기 위해)
         List<int[]> sortedQueries = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             sortedQueries.add(new int[]{queries[i], i});
@@ -30,7 +31,7 @@ class Solution {
                 int col = cur[2];
                 cnt++;
 
-                //인접한 Node를 pq에 넣기
+                //인접한 Node를 pq에 넣기, 방문한 경우와 인덱스를 넘어간 경우 제외
                 for (int[] dir : dirs) {
                     int nr = row + dir[0];
                     int nc = col + dir[1];
