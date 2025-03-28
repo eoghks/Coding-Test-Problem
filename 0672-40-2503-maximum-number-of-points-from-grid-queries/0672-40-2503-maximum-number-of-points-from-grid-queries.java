@@ -13,7 +13,7 @@ class Solution {
         }
         sortedQueries.sort((a,b) -> a[0] - b[0]);
 
-        //pq를 이용하여 방문할 수 있는 노드 중 최저를 가져오기
+        
         PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> a[0] - b[0]);
         pq.offer(new int[]{grid[0][0], 0, 0});
         visited[0][0] = 1;
@@ -23,12 +23,14 @@ class Solution {
             int val = q[0];
             int idx = q[1];
 
+            //pq를 이용하여 방문할 수 있는 노드 중 최저를 가져오기
             while (!pq.isEmpty() && pq.peek()[0] < val) {
                 int[] cur = pq.poll();
                 int row = cur[1];
                 int col = cur[2];
                 cnt++;
 
+                //인접한 Node를 pq에 넣기
                 for (int[] dir : dirs) {
                     int nr = row + dir[0];
                     int nc = col + dir[1];
