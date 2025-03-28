@@ -13,6 +13,7 @@ class Solution {
         }
         sortedQueries.sort((a,b) -> a[0] - b[0]);
 
+        //pq를 이용하여 방문할 수 있는 노드 중 최저를 가져오기
         PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> a[0] - b[0]);
         pq.offer(new int[]{grid[0][0], 0, 0});
         visited[0][0] = 1;
