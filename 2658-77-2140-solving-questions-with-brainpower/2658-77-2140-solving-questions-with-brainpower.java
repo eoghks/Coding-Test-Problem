@@ -12,7 +12,7 @@ class Solution {
                 //dp[idx]는 dp[idx]의 최대값임
                 dp[i] = questions[i][0] + dp[idx];
             }
-
+            //이전 경우와 현재 point의 합을 구함
             dp[i] = Math.max(dp[i+1], dp[i]);
         }
         return dp[0];
