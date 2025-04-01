@@ -1,4 +1,5 @@
 class Solution {
+    //dp[i]의 최대 값음 dp[i+breakpoint+1]의 값과 현재 포인트의 값을 합친것이다.
     public long mostPoints(int[][] questions) {
         int n = questions.length;
         long[] dp = new long[n];
