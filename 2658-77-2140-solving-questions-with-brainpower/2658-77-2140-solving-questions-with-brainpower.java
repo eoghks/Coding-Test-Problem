@@ -9,6 +9,7 @@ class Solution {
             if(idx >= n) {
                 dp[i] = questions[i][0];
             } else {
+                //dp[idx]는 dp[idx]의 최대값임
                 dp[i] = questions[i][0] + dp[idx];
             }
 
