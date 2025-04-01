@@ -1,5 +1,12 @@
 class Solution {
     //dp[i]의 최대 값음 dp[i+breakpoint+1]의 값과 현재 포인트의 값을 합친것이다.
+    //point       5 6 4 2
+    //break point 2 1 4 5
+    //dp[3] -> 2
+    //dp[2] -> 4
+    //dp[1] -> max(6+dp[1+1+1=3], dp[2]) -> max(8,4) -> 8
+    //dp[0] -> max(5+dp[0+2+1=3], dp[1]) -> max(7, 8) -> 8
+    //result -> 8
     public long mostPoints(int[][] questions) {
         int n = questions.length;
         long[] dp = new long[n];
