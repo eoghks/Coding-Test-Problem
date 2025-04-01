@@ -1,4 +1,5 @@
 class Solution {
+    //brainpower가 n을 넘어가는 경우에는 현재 point만 획득(다음 문제를 풀수 없기 때문)
     public long mostPoints(int[][] questions) {
         int n = questions.length;
         long[] dp = new long[n];
