@@ -12,6 +12,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
+| [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 ## Dynamic Programming
 |  |
