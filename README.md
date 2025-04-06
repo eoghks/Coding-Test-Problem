@@ -11,12 +11,14 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Array
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 ## String
 |  |
@@ -42,4 +44,12 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+## Math
+|  |
+| ------- |
+| [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
+## Sorting
+|  |
+| ------- |
+| [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 <!---LeetCode Topics End-->
