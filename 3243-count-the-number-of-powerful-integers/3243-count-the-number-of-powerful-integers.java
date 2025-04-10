@@ -37,6 +37,7 @@ class Solution {
         return true;
     }
 
+    //isStrict이 1인 경우는 0~i까지의 모든 자릿수가 finsih와 같은 경우를 의미
     private long solve(int i, int isStrict, char[] range, int limit, int n, Long[][] dp, boolean checkIfSTrictThenPoss){
         //자릿수가 finish와 같은 경우
         if (i == n){
@@ -46,15 +47,19 @@ class Solution {
             return dp[i][isStrict];
         }
 
+        //i가 n-Slen과 같아진다는 것은 i 이후 자릿수는 SuffixReq와 같은 값이라는 의미이다.
         if (i == n - sLen) {
+            //즉 checkIfSTrictThenPoss는 최대 숫자일 때 뒤에서 suffixReq보다 큰가?
             if (isStrict == 1) {
                 return checkIfSTrictThenPoss ? 1 : 0;
             }
             return 1;
         }
 
-        int till = limit, num = (int) (range[i] - '0');
-        if (isStrict == 1 || i == 0) till = Math.min(limit, num);
+        int till = limit;
+        int num = (int) (range[i] - '0');
+        if (isStrict == 1 || i == 0) 
+            till = Math.min(limit, num);
         long ans = 0;
 
         for (int j = 0; j <= till; j++) {
