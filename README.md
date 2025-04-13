@@ -57,10 +57,15 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
+| [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Sorting
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/eoghks/Coding-Test-Problem/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+## Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 <!---LeetCode Topics End-->
