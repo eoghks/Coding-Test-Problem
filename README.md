@@ -16,6 +16,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -37,6 +38,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/eoghks/Coding-Test-Problem/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Tree
@@ -98,4 +100,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
+## Sliding Window
+|  |
+| ------- |
+| [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 <!---LeetCode Topics End-->
