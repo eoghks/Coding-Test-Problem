@@ -27,6 +27,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0416-partition-equal-subset-sum) |
+| [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 ## String
@@ -61,6 +62,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
+| [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 | [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Sorting
@@ -104,4 +106,12 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
+## Brainteaser
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
+## Game Theory
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 <!---LeetCode Topics End-->
