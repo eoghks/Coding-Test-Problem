@@ -11,6 +11,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Array
 |  |
 | ------- |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/eoghks/Coding-Test-Problem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
@@ -44,6 +45,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Hash Table
 |  |
 | ------- |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -51,6 +53,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Tree
 |  |
 | ------- |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Depth-First Search
 |  |
@@ -63,6 +66,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Binary Tree
 |  |
 | ------- |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Math
 |  |
@@ -94,6 +98,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
 ## Binary Indexed Tree
 |  |
