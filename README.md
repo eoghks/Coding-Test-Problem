@@ -11,6 +11,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Array
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/eoghks/Coding-Test-Problem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0416-partition-equal-subset-sum) |
@@ -88,6 +89,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
 ## Divide and Conquer
 |  |
@@ -125,4 +127,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+## Two Pointers
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
