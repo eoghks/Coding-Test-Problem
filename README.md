@@ -18,6 +18,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0416-partition-equal-subset-sum) |
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
+| [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
@@ -147,6 +148,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -163,8 +165,10 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
