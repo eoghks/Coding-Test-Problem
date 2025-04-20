@@ -60,10 +60,12 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Depth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Binary Tree
 |  |
@@ -144,6 +146,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -156,4 +159,12 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
+## Graph
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
