@@ -16,6 +16,7 @@ class Solution {
         }
 
         int cnt = 0;
+        //fresh >0 썩을 오렌지가 없을 때만 돌아야함..
         while(!q.isEmpty() && fresh > 0) {
             int size = q.size();
             for(int i=0; i<size; i++) {
