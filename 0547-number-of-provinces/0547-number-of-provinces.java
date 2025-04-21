@@ -1,4 +1,5 @@
 class Solution {
+    /* Use Union Find
     int[] parent;
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
@@ -33,5 +34,26 @@ class Solution {
         int rootY = find(y);
 
         parent[rootY] = rootX;
+    }*/
+    // Use DFS
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[] visited = new boolean[n];
+        int res = 0;
+        for(int i=0; i<n; i++) {
+            if(visited[i] == false) {
+                res++;
+                dfs(i, visited, isConnected);
+            }
+        }
+        return res;
+    }
+    private void dfs(int i, boolean[] visited, int[][] isConnected) {
+        visited[i] = true;
+        for(int j = 0; j<visited.length; j++) {
+            if(isConnected[i][j] == 1 && visited[j] == false) {
+                dfs(j, visited, isConnected);
+            }
+        }
     }
 }
