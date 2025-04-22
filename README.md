@@ -15,6 +15,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
+| [0238-product-of-array-except-self](https://github.com/eoghks/Coding-Test-Problem/tree/master/0238-product-of-array-except-self) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/eoghks/Coding-Test-Problem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
@@ -208,4 +209,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/eoghks/Coding-Test-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/eoghks/Coding-Test-Problem/tree/master/0684-redundant-connection) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/eoghks/Coding-Test-Problem/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
