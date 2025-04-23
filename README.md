@@ -55,6 +55,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1500-count-largest-group](https://github.com/eoghks/Coding-Test-Problem/tree/master/1500-count-largest-group) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/eoghks/Coding-Test-Problem/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -96,6 +97,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
+| [1500-count-largest-group](https://github.com/eoghks/Coding-Test-Problem/tree/master/1500-count-largest-group) |
 | [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
