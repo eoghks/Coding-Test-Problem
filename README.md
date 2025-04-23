@@ -28,6 +28,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1036-rotting-oranges](https://github.com/eoghks/Coding-Test-Problem/tree/master/1036-rotting-oranges) |
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
+| [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
@@ -169,6 +170,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/eoghks/Coding-Test-Problem/tree/master/1036-rotting-oranges) |
+| [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Two Pointers
 |  |
@@ -215,6 +217,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
+| [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 ## Union Find
 |  |
 | ------- |
