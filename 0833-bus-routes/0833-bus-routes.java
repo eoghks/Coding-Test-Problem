@@ -69,11 +69,14 @@ class Solution {
         while (flag) {
             flag = false;
             for (int[] route : routes) {
+                //해당 버스를 타기 위한 최단 환승 수
                 int min = n + 1;
                 for (int stop : route) {
                     min = Math.min(min, minBusesToReach[stop]);
                 }
                 min++;
+                
+                //해당 버스를 타고 도착할 수 있는 정류장의 최단 환승 수를 구함
                 for (int stop : route) {
                     if (minBusesToReach[stop] > min) {
                         minBusesToReach[stop] = min;
