@@ -15,6 +15,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/eoghks/Coding-Test-Problem/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/eoghks/Coding-Test-Problem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -43,6 +44,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/eoghks/Coding-Test-Problem/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/eoghks/Coding-Test-Problem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/eoghks/Coding-Test-Problem/tree/master/0198-house-robber) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/eoghks/Coding-Test-Problem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
