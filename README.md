@@ -13,6 +13,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0039-combination-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/eoghks/Coding-Test-Problem/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -63,6 +64,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/eoghks/Coding-Test-Problem/tree/master/0058-length-of-last-word) |
+| [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/eoghks/Coding-Test-Problem/tree/master/0091-decode-ways) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Hash Table
@@ -84,6 +86,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/eoghks/Coding-Test-Problem/tree/master/0547-number-of-provinces) |
@@ -176,6 +179,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/eoghks/Coding-Test-Problem/tree/master/1036-rotting-oranges) |
@@ -224,6 +228,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0039-combination-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
