@@ -37,6 +37,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/eoghks/Coding-Test-Problem/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -132,6 +133,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/eoghks/Coding-Test-Problem/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Recursion
 |  |
@@ -145,6 +147,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
 ## Divide and Conquer
 |  |
@@ -258,4 +261,13 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/eoghks/Coding-Test-Problem/tree/master/0605-can-place-flowers) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 <!---LeetCode Topics End-->
