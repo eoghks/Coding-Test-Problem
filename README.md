@@ -38,6 +38,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/eoghks/Coding-Test-Problem/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
+| [2048-build-array-from-permutation](https://github.com/eoghks/Coding-Test-Problem/tree/master/2048-build-array-from-permutation) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
@@ -275,4 +276,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Simulation
+|  |
+| ------- |
+| [2048-build-array-from-permutation](https://github.com/eoghks/Coding-Test-Problem/tree/master/2048-build-array-from-permutation) |
 <!---LeetCode Topics End-->
