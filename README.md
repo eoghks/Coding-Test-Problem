@@ -48,6 +48,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/eoghks/Coding-Test-Problem/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/eoghks/Coding-Test-Problem/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/eoghks/Coding-Test-Problem/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/eoghks/Coding-Test-Problem/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -197,6 +198,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1036-rotting-oranges](https://github.com/eoghks/Coding-Test-Problem/tree/master/1036-rotting-oranges) |
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -208,6 +210,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -230,12 +233,14 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Backtracking
 |  |
 | ------- |
