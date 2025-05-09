@@ -38,6 +38,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/eoghks/Coding-Test-Problem/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/eoghks/Coding-Test-Problem/tree/master/2048-build-array-from-permutation) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -129,6 +130,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/eoghks/Coding-Test-Problem/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/eoghks/Coding-Test-Problem/tree/master/1500-count-largest-group) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -148,6 +150,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Binary Search
 |  |
 | ------- |
@@ -250,6 +253,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Union Find
 |  |
 | ------- |
@@ -266,6 +270,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/0090-subsets-ii) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Greedy
 |  |
 | ------- |
@@ -285,4 +290,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/eoghks/Coding-Test-Problem/tree/master/2048-build-array-from-permutation) |
+## Combinatorics
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
