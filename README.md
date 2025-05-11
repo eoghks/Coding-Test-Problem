@@ -34,6 +34,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/eoghks/Coding-Test-Problem/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/eoghks/Coding-Test-Problem/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1293-three-consecutive-odds](https://github.com/eoghks/Coding-Test-Problem/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1331-path-with-maximum-gold](https://github.com/eoghks/Coding-Test-Problem/tree/master/1331-path-with-maximum-gold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/eoghks/Coding-Test-Problem/tree/master/1421-find-numbers-with-even-number-of-digits) |
