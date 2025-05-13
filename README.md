@@ -71,6 +71,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## String
 |  |
 | ------- |
@@ -78,6 +79,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/eoghks/Coding-Test-Problem/tree/master/0091-decode-ways) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -90,6 +92,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [2215-finding-3-digit-even-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2215-finding-3-digit-even-numbers) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/eoghks/Coding-Test-Problem/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Tree
 |  |
@@ -137,6 +140,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Sorting
 |  |
 | ------- |
@@ -228,6 +232,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/eoghks/Coding-Test-Problem/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Quickselect
 |  |
 | ------- |
