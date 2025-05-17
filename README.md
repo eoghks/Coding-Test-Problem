@@ -69,6 +69,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0416-partition-equal-subset-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
 | [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
@@ -81,6 +82,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0058-length-of-last-word](https://github.com/eoghks/Coding-Test-Problem/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/eoghks/Coding-Test-Problem/tree/master/0091-decode-ways) |
+| [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -221,6 +223,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | ------- |
 | [0075-sort-colors](https://github.com/eoghks/Coding-Test-Problem/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
