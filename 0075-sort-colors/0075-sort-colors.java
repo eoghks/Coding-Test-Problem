@@ -18,9 +18,9 @@ class Solution {
     */
     /*change*/
      public void sortColors(int[] nums) {
-         int idx =0;
-         int p1 = 0;
-         int p2 = nums.length-1;
+        int idx =0;
+        int p1 = 0;
+        int p2 = nums.length-1;
         while (idx <= p2) {
             if (nums[idx] == 0) {
                 nums[idx] = nums[p1];
