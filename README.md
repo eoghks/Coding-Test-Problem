@@ -12,6 +12,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0039-combination-sum) |
+| [0073-set-matrix-zeroes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/eoghks/Coding-Test-Problem/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/eoghks/Coding-Test-Problem/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
@@ -90,6 +91,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0073-set-matrix-zeroes) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/eoghks/Coding-Test-Problem/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/eoghks/Coding-Test-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0833-bus-routes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0833-bus-routes) |
@@ -214,6 +216,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
