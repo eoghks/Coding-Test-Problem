@@ -71,6 +71,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0368-largest-divisible-subset](https://github.com/eoghks/Coding-Test-Problem/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/0416-partition-equal-subset-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0806-domino-and-tromino-tiling](https://github.com/eoghks/Coding-Test-Problem/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
 | [1086-divisor-game](https://github.com/eoghks/Coding-Test-Problem/tree/master/1086-divisor-game) |
 | [1121-partition-array-for-maximum-sum](https://github.com/eoghks/Coding-Test-Problem/tree/master/1121-partition-array-for-maximum-sum) |
