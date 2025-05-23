@@ -49,6 +49,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [2262-solving-questions-with-brainpower](https://github.com/eoghks/Coding-Test-Problem/tree/master/2262-solving-questions-with-brainpower) |
 | [2280-count-good-triplets-in-an-array](https://github.com/eoghks/Coding-Test-Problem/tree/master/2280-count-good-triplets-in-an-array) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2915-count-of-interesting-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2915-count-of-interesting-subarrays) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -101,6 +102,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1500-count-largest-group](https://github.com/eoghks/Coding-Test-Problem/tree/master/1500-count-largest-group) |
 | [2215-finding-3-digit-even-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2215-finding-3-digit-even-numbers) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2915-count-of-interesting-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2915-count-of-interesting-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/eoghks/Coding-Test-Problem/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -291,6 +293,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/eoghks/Coding-Test-Problem/tree/master/0238-product-of-array-except-self) |
+| [2915-count-of-interesting-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2915-count-of-interesting-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
