@@ -152,6 +152,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/eoghks/Coding-Test-Problem/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3172-divisible-and-non-divisible-sums-difference](https://github.com/eoghks/Coding-Test-Problem/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3321-type-of-triangle](https://github.com/eoghks/Coding-Test-Problem/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
