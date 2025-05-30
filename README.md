@@ -125,6 +125,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/eoghks/Coding-Test-Problem/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/eoghks/Coding-Test-Problem/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Breadth-First Search
 |  |
@@ -269,6 +270,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0803-cheapest-flights-within-k-stops](https://github.com/eoghks/Coding-Test-Problem/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/eoghks/Coding-Test-Problem/tree/master/0813-all-paths-from-source-to-target) |
 | [1325-path-with-maximum-probability](https://github.com/eoghks/Coding-Test-Problem/tree/master/1325-path-with-maximum-probability) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/eoghks/Coding-Test-Problem/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
 |  |
