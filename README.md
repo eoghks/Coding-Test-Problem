@@ -54,6 +54,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3194-find-words-containing-character](https://github.com/eoghks/Coding-Test-Problem/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/eoghks/Coding-Test-Problem/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3321-type-of-triangle](https://github.com/eoghks/Coding-Test-Problem/tree/master/3321-type-of-triangle) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -90,6 +91,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0091-decode-ways](https://github.com/eoghks/Coding-Test-Problem/tree/master/0091-decode-ways) |
 | [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3194-find-words-containing-character](https://github.com/eoghks/Coding-Test-Problem/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Hash Table
