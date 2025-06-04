@@ -94,6 +94,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [3194-find-words-containing-character](https://github.com/eoghks/Coding-Test-Problem/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -185,6 +186,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1656-count-good-triplets](https://github.com/eoghks/Coding-Test-Problem/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2215-finding-3-digit-even-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2215-finding-3-digit-even-numbers) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -243,6 +245,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0075-sort-colors](https://github.com/eoghks/Coding-Test-Problem/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eoghks/Coding-Test-Problem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
