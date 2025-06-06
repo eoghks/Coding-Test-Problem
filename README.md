@@ -90,6 +90,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/eoghks/Coding-Test-Problem/tree/master/0091-decode-ways) |
 | [0868-push-dominoes](https://github.com/eoghks/Coding-Test-Problem/tree/master/0868-push-dominoes) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/eoghks/Coding-Test-Problem/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/eoghks/Coding-Test-Problem/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/eoghks/Coding-Test-Problem/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -106,6 +107,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/eoghks/Coding-Test-Problem/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1500-count-largest-group](https://github.com/eoghks/Coding-Test-Problem/tree/master/1500-count-largest-group) |
 | [2215-finding-3-digit-even-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/2215-finding-3-digit-even-numbers) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/eoghks/Coding-Test-Problem/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2915-count-of-interesting-subarrays](https://github.com/eoghks/Coding-Test-Problem/tree/master/2915-count-of-interesting-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/eoghks/Coding-Test-Problem/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -323,6 +325,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0605-can-place-flowers](https://github.com/eoghks/Coding-Test-Problem/tree/master/0605-can-place-flowers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/eoghks/Coding-Test-Problem/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/eoghks/Coding-Test-Problem/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/eoghks/Coding-Test-Problem/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/eoghks/Coding-Test-Problem/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3647-zero-array-transformation-iii](https://github.com/eoghks/Coding-Test-Problem/tree/master/3647-zero-array-transformation-iii) |
 ## Queue
@@ -341,4 +344,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/eoghks/Coding-Test-Problem/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Stack
+|  |
+| ------- |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/eoghks/Coding-Test-Problem/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 <!---LeetCode Topics End-->
