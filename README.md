@@ -125,6 +125,7 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 | [0079-word-search](https://github.com/eoghks/Coding-Test-Problem/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/eoghks/Coding-Test-Problem/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/eoghks/Coding-Test-Problem/tree/master/0200-number-of-islands) |
+| [0386-lexicographical-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/0386-lexicographical-numbers) |
 | [0547-number-of-provinces](https://github.com/eoghks/Coding-Test-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/eoghks/Coding-Test-Problem/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/eoghks/Coding-Test-Problem/tree/master/0744-network-delay-time) |
@@ -348,4 +349,8 @@ msut -> 코딩테스트에 자주 출제되는 문제로 한번은 풀어보면 
 |  |
 | ------- |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/eoghks/Coding-Test-Problem/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/eoghks/Coding-Test-Problem/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
